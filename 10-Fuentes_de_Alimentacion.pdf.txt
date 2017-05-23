@@ -1,7 +1,5 @@
 Fuentes de Alimentación
 
-
-
 Introducción
 
 Muchos circuitos y componentes electrónicos necesitan ser alimentados mediante una
@@ -9,8 +7,6 @@ Muchos circuitos y componentes electrónicos necesitan ser alimentados mediante 
 señal de corriente continua (por ejemplo, la mayoría de los circuitos integrados). Esto
 
 puede realizarse de dos formas diferentes:
-
-
 
 - Mediante pilas: las cuales entregan una corriente continua, pero tiene desventajas
 
@@ -21,8 +17,6 @@ suficiente
 - Mediante una fuente de alimentación: comúnmente las utilizamos todos los días para
 
 enchufar muchos de los diversos aparatos electrónicos.
-
-
 
 En general las fuente de alimentación que usamos a diario se enchufan directamente a
 
@@ -38,33 +32,19 @@ la red hogareña de 220 Volts CA a un valor de CC, y además como se puede obten
 
 diversos valores diferentes de tensión.
 
-
-
-
-
 Fuente de alimentación – Bloques
-
-
 
 Las fuentes de alimentación que vamos a estudiar pueden dividirse en general en
 
 cuatro grandes bloques que desarrollan funciones diferentes:
 
-
-
 Transformador - Rectificación - Filtrado - Regulación
-
-
 
 Repasaremos uno por uno cada uno de estos ítems para entender como funcionan las
 
 fuentes de tensión.
 
-
-
 Transformador – Inducción electromagnética
-
-
 
 Una bobina que es recorrida por una corriente variable (CA) desarrolla un campo
 
@@ -74,15 +54,9 @@ bobinas que se encuentran en su proximidad.
 
 Esto puede verse claramente si observamos el siguiente gráfico:
 
-
-
-
-
 Cuando cerramos la llave, el instrumento (galvanómetro) nos marcará el paso de una
 
 pequeña corriente, pero esta volverá a cero. Si abrimos nuevamente la llave el
-
-
 
 instrumento indicará una corriente, pero en el sentido contrario. Esto se da por que al
 
@@ -114,8 +88,6 @@ corriente variable en la otra bobina, y por lo tanto, si tenemos una carga a la 
 
 produciendo una tensión inducida.
 
-
-
 Como sabemos los inductores están formados por espiras de material conductor, o sea
 
 material conductor enrollado alrededor de un núcleo. El transformador no es más ni
@@ -130,10 +102,6 @@ la que es inducida se la llama secundario o inducida. Ambas bobinas están
 
 eléctricamente aisladas.
 
-
-
-
-
 Cada una de estas dos bobinas posee una cantidad de espiras, por lo que tenemos un
 
 Número de Espiras del Primario (Np) y un Número de Espiras del Secundario (Ns). El
@@ -142,53 +110,29 @@ número de espiras en ambas bobinas determina la relación directa entre las ten
 
 que tenemos entre le primario y el secundario:
 
-
-
 Vp/Vs = Np/Ns
-
-
 
 Si despejamos entonces:
 
-
-
 Vs (tensión en el secundario) = Vp (tensión en el primario) * Ns/Np
-
-
-
-
 
 Esta relación determinará que tipo de transformador tenemos:
 
-
-
 Si Ns > Np Vs > Vp el transformador es elevador de tensión.
-
-
 
 Si Ns = Np Vs = Vp el transformador es aislador.
 
-
-
 Si Ns < Np Vs < Vp el transformador es elevador reductor.
-
-
 
 Las últimas dos configuraciones se utilizan como transformadores de tensión, como
 
 también para procesar audio (telefonía).
 
-
-
 Ejemplos:
-
-
 
 10:1 220V 22V
 
 1:10220 2200V
-
-
 
 En todos los casos donde tenemos un transformador se entra con corriente alterna y
 
@@ -198,11 +142,7 @@ La potencia en el primario y el secundario siempre será la misma, solamente se
 
 producen las variaciones necesarias de corriente para equilibrar ambos lados:
 
-
-
 O sea, por ejemplo en el transformador elevador:
-
-
 
 Si Pp = Ps
 
@@ -210,19 +150,13 @@ Vp < Vs
 
 Ip > Is
 
-
-
 En un transformador reductor:
-
-
 
 Si Pp = Ps
 
 Vp > Vs
 
 Ip < Is
-
-
 
 De esta manera no hay desbalances de potencia, ya que la corriente se adecua a la
 
@@ -232,8 +166,6 @@ Con respecto a la frecuencia, esta se mantiene inalterable cuando es inducida al
 
 secundario, o sea tenemos la misma frecuencia en el primario como en el secundario.
 
-
-
 De esta manera, mediante el uso del transformador, tenemos el primer paso cumplido
 
 para comenzar el diseño de la fuente de alimentación: transformamos la tensión que
@@ -242,15 +174,9 @@ nos viene de la red domestica de 220V CA a otro valor de CA (más pequeño, más
 
 grande, etc).
 
-
-
 Otras consideraciones de los transformadores:
 
-
-
 Que sucede cuando no tenemos ninguna resistencia de carga en el secundario?
-
-
 
 Para contestar esto debemos tener en cuenta que las bobinas de un transformador
 
@@ -272,13 +198,9 @@ esto produce perdidas. Estas corrientes son denominadas parasitas, y este efecto
 
 minimiza utilizando láminas de metal en vez de un bloque de metal para el núcleo.
 
-
-
 Entonces cuando se tiene un transformador hay que tener en cuenta las siguientes
 
 perdidas:
-
-
 
 - Pérdidas por la resistencia del cobre, tanto en el primario como en el
 
@@ -286,21 +208,13 @@ secundario.
 
 - Pérdidas por el núcleo por las corrientes parasitas y el efecto de histéresis.
 
-
-
 Estas pérdidas producen elevación de temperatura.
-
-
 
 Por lo que la potencia del primario se traduce como la potencia del secundario + las
 
 perdidas de todo el bloque.
 
-
-
 Rectificación
-
-
 
 Una vez tenemos una tensión alterna más baja gracias a la acción del transformador,
 
@@ -314,8 +228,6 @@ negativo, dejando solamente una de las partes de la señal. Este trabajo lo real
 
 problemas un componente que ya conocemos: los diodos.
 
-
-
 Como hemos visto, un diodo puede polarizarse solamente de una manera, y de esta
 
 manera permitirá el paso de la corriente, si se polariza a la inversa, no habrá
@@ -326,17 +238,9 @@ alterna, convirtiéndola en continua.
 
 Ahora analicemos el siguiente circuito que se denomina Rectificador de Media Onda:
 
-
-
-
-
 Si aplicamos una tensión alterna, el diodo solo dejara pasar la corriente cuando la
 
 señal se encuentre en su semiciclo positivo:
-
-
-
-
 
 Convirtiendo de esta manera, la tensión alterna, en continua. Igualmente en este caso
 
@@ -348,17 +252,9 @@ Onda Completa, en el que se utilizan dos pares de diodos, y el transformador pos
 
 una descarga a tierra para tener una referencia, que ayude a mejorar la rectificación.
 
-
-
-
-
 Cuando la polaridad de la CA es + -, el diodo 1 deja pasar a este, diseccionándolo a la
 
 resistencia de salida que tiene la tierra como referencia:
-
-
-
-
 
 Cuando la polaridad cambia a - +, el diodo que conduce es el 2, dejando pasar la
 
@@ -366,17 +262,9 @@ corriente, pero también disponiéndola sobre la resistencia de carga, que al es
 
 referenciada a masa, tendrá nuevamente polaridad positiva:
 
-
-
-
-
 De esta manera la tensión de salida será nuevamente continua, pero las variaciones
 
 serán menos bruscas:
-
-
-
-
 
 Aun así seguimos teniendo una tensión continua pulsante.
 
@@ -386,39 +274,21 @@ llamado Puente Rectificador de Diodos. El circuito de esta configuración es el
 
 siguiente:
 
-
-
-
-
 Como vemos este circuito lleva cuatro diodos. Como funciona esto? De la siguiente
 
 manera:
-
-
 
 Cuando la tensión alterna tiene polaridad + -, el los diodos D1 y D2 son los que
 
 conducen:
 
-
-
-
-
 Cuando la polaridad es - +, los que conducen son los diodos D3 y D4:
-
-
-
-
 
 De esta manera siempre estamos entregando a la resistencia un valor positivo con
 
 respecto a la tierra del circuito, y por lo tanto se rectifican tanto el semiciclo positivo
 
 como el negativo, obteniendo la siguiente corriente continua aunque todavía pulsante:
-
-
-
-
 
 Gracias a la rectificación mediante diodos, ya tenemos otra parte importante de
 
@@ -428,19 +298,11 @@ hay que mejorar la pulsación que todavía tenemos en la señal, y esto lo hará
 
 siguiente etapa, la de filtrado.
 
-
-
 Filtrado
-
-
 
 Mediante el uso de un capacitor a la salida del rectificador podemos lograr que la
 
 pulsación de la señal sea minimizada.
-
-
-
-
 
 Esto se debe a que el capacitor funciona como un filtro ya que elimina las pulsaciones,
 
@@ -460,8 +322,6 @@ Si el capacitor se descarga muy lento el valor medio de la señal aumenta, si el
 
 la resistencia de carga baja, el capacitor se descarga más rápido y el valor medio baja.
 
-
-
 Gracias a estas tres etapas tenemos una fuente de tensión continua y bastante
 
 constante, pero con un poco de rizado que hace variar el valor de tensión. A este tipo
@@ -470,11 +330,7 @@ de fuentes se la llama Fuente de Tensión no Regulada por que modifican su tensi
 
 salida dependiendo mucho de la carga que le pongamos.
 
-
-
 Regulación
-
-
 
 En la fuente no regulada la tensión de salida no es constante debido a que esta
 
@@ -486,13 +342,9 @@ tener en cuenta que la tensión con la cual se alimenta a la fuente (red hogare�
 
 también varía bastante con respecto a los 220 V que conocemos.
 
-
-
 Si RL aumenta, aumenta la tensión de salida.
 
 Si RL baja, disminuye la tensión de salida.
-
-
 
 El peligro de tener una fuente no regulada es que con resistencias de carga muy bajas
 
@@ -500,67 +352,41 @@ la tensión de salida sube demasiado y el equipo puede no estar preparado para e
 
 por lo que puede ser dañado.
 
-
-
 Para poder realizar una regulación efectiva existe un componente que se llama
 
 Regulador de Tensión.
-
-
-
-
 
 Como vemos el regulador de tensión posee tres patas, una de entrada, una de salida y
 
 otra de tierra. Los reguladores pueden tener varios valores de salida.
 
-
-
-
-
 7815 Regulador positivo (78) – Tensión de salida regulada (15)
 
 7915 Regulador negativo (79) – Tensión de salida regulada (15)
 
-
-
 Las tensiones más utilizadas pueden ser: 05 – 08 – 09 – 12 – 15
-
-
 
 En el regulador positivo Vin y Vout son positivos con respecto a GND.
 
 En el regulador negativo Vin y Vout son negativos con respecto a GND.
 
-
-
 El circuito necesita tensión continua y constante. La función del regulador es mantener
 
 una tensión constante dentro de ciertos límites.
-
-
 
 Por ejemplo: Utilizando un regulador de 15 volts, el 7815, la entrada debe estar entre
 
 estos parámetros:
 
-
-
 17v <= Vin <= 30v
 
-
-
 Ambos son valores Pico de tensión.
-
-
 
 Estos valores se deben tener en cuenta para obtener una buena regulación de tensión.
 
 Si la tensión baja de los 17v, la señal comienza a copiar el rizado que aparece después
 
 del capacitor.
-
-
 
 Si se pasa de los 30v, las condiciones de regulación son peores, ya que el componente
 
@@ -576,25 +402,17 @@ corriente – 10 ohm), y la mínima puede ser de 0A, o sea el circuito puede est
 
 cosa que no afectará al componente.
 
-
-
 Si establecemos por ejemplo una tensión pico de entrada de 22v, lo que estaría dentro
 
 del margen de utilización, podemos llegar a calcular que tipo de transformador
 
 necesitamos.
 
-
-
 Como 22v es el valor pico de la señal, para calcular el valor eficaz de la salida del
 
 secundario del transformador solamente hacemos la cuenta:
 
-
-
 Vs = Vp/√2 = 22V//√2 = 15.55vef
-
-
 
 De esta manera vemos que necesitaremos un transformador que pase de 220v a
 
@@ -602,53 +420,31 @@ De esta manera vemos que necesitaremos un transformador que pase de 220v a
 
 Esto significa que la relación entre espiras debe ser de 14.14:
 
-
-
 220v/15.55 = Np/Ns = 14.14
-
-
 
 También podemos calcular cual sería la tensión que debe tener la red eléctrica para
 
 llegar al límite de 30vpico en el secundario, lo que respondería a una suba de tensión:
 
-
-
 Veficaz del secundario = 30v/√2 = 21.21vef
 
-
-
 Vlinea / 21.21vef = 14.14 Vlinea = 21.21vef*14.14 = 299.9 V
-
-
 
 O sea la tensión de línea debería llegar a casi 300V para que nuestro regulador
 
 comience a funcionar mal.
 
-
-
 Podemos seguir pensando en cual sería la tensión mínima de línea para llegar a los 17v
 
 pico mínimos que necesita el regulador.
 
-
-
 Veficaz del secundario = 14v/√2 = 12.02vef
 
-
-
 Vlinea / 12.02vef = 14.14 Vlinea = 12.02vef*14.14 = 169.66 V
-
-
-
-
 
 De esta manera tenemos ya armada nuestra fuente de alimentación regulada, que
 
 puede también llamarse Fuente d Tensión Convencional.
-
-
 
 Existe otro tipo de fuentes de tensión reguladas: las conmutadas o Switching, muy
 
@@ -668,35 +464,21 @@ frecuencias.
 
 Las ventajas son:
 
-
-
 1- poseen un amplio margen de trabajo en tensión de entrada
 
 2- Su peso físico es muy bajo comparado a una fuente convencional
 
 3- mayor eficiencia de transformación de tensiones, y por eso menor calentamiento.
 
-
-
 Las desventajas son:
-
-
 
 1- son más complejas de construir.
 
 2- producen ruido de alta frecuencia que debe ser aislado cuidadosamente.
-
-
-
-
 
 Apunte realizado por Esteban Calcagno y Martín Matus para uso interno exclusivo de la materia Taller
 
 de Instrumental y Equipos I de la Carrera de Composición con Medios Electroacústicos de la Universidad
 
 Nacional de Quilmes.
-
-
-
-
 

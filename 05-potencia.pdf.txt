@@ -1,14 +1,8 @@
 POTENCIA ELÉCTRICA
 
-
-
 El siguiente es un circuito esquemático que corresponde a una linterna, siendo la lámpara un tipo
 
 particular de resistencia y las pilas de la linterna una fuente de tensión continua
-
-
-
-
 
 La función de una linterna es convertir la energía eléctrica entregada por la pila a energía lumínica
 
@@ -22,8 +16,6 @@ la rapidez de transferencia de energía de un sistema a otro. En el caso de una 
 
 viene a ser la velocidad con que es convertida la energía eléctrica en energía lumínica.
 
-
-
 Más precisamente, la potencia es una indicación de cuanto trabajo (conversión de energía de una
 
 forma a otra) puede efectuarse en una cantidad específica de tiempo, o lo que es lo mismo, es la
@@ -34,11 +26,7 @@ segundos (s), la potencia se mide en joules/segundo (J/s). La unidad eléctrica 
 
 potencia es el watt (W)1, es decir:
 
-
-
 1 watt (W) = 1 joule/segundo (J/s)
-
-
 
 o expresado en forma de ecuación:
 
@@ -46,23 +34,11 @@ P = W
 
 t
 
-
-
 donde W es la energía, medida en Joules, y t el tiempo en segundos
-
-
-
-
 
 Para calcular la potencia consumida por la lámpara del circuito inicial se utiliza la siguiente fórmula:
 
-
-
 P = V . I
-
-
-
-
 
 Esta fórmula es la que utilizaremos para cálculos de potencia con cualquier tipo de resistor (no
 
@@ -73,10 +49,6 @@ KΩ se obtiene una corriente circulante de 12,5 mA. Para calcular la potencia d
 resistor aplicamos
 
 P = V . I = 15 V . 12,5 mA = 0,1875 watts
-
-
-
-
 
 1
 
@@ -94,43 +66,25 @@ Podemos relacionar también la potencia con el valor de resistencia mediante sim
 
 de fórmulas. Sabemos que la ley de Ohm dice que:
 
-
-
 V = I . R
-
-
 
 Reemplazando V en la ecuación de potencia obtenemos:
 
-
-
 P = (I . R) . I
-
-
 
 P = I² . R
 
-
-
 Por otra parte, si en la ecuación de potencia reemplazamos I con la ecuación I = V / R :
-
-
 
 P = V . V
 
 R
 
-
-
 P = V²
 
 R
 
-
-
 Podemos utilizar cualquiera de estas ecuaciones para obtener el valor de potencia en un circuito.
-
-
 
 Encontramos aplicado el concepto de potencia eléctrica en distintos elementos hogareños, por
 
@@ -143,8 +97,6 @@ nominal, es decir la potencia consumida cuando el foco está alimentado por la t
 nuestro país 220 V). En caso de que la tensión de línea disminuya, también lo hará la potencia
 
 consumida (y como es lógico, el foco generará menos luz).
-
-
 
 Podemos comprender ahora más cabalmente porqué es erróneo expresar que la
 
@@ -170,10 +122,6 @@ conversión de energía de una forma a otra. Ningún tipo de energía puede desa
 
 ni ser destruida.
 
-
-
-
-
 Apunte realizado por Martín Matus y Esteban Calcagno para uso interno de la materia Taller
 
 de Instrumental y Equipos I de la Carrera de Composición con Medios Electroacústicos de la
@@ -181,8 +129,4 @@ de Instrumental y Equipos I de la Carrera de Composición con Medios Electroacú
 Universidad Nacional de Quilmes.
 
 2
-
-
-
-
 

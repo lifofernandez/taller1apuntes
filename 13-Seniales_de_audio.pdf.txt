@@ -170,10 +170,6 @@ gráfico, el principio por el cual funcionan las lineas balanceadas tiene que ve
 
 2
 
-
-
-
-
 l egar las dos señales invertidas de fase a la entrada del dispositivo (por ejemplo una
 
 consola) se produce nuevamente la inversión de la fase de una de el as y se suman dando
@@ -227,10 +223,6 @@ y eléctricas como flexibilidad, densidad del
 blindaje, durabilidad, resistencia, capacitancia
 
 3
-
-
-
-
 
 entre conductores, inductancia entre conductores, etc.
 
@@ -298,13 +290,7 @@ recorrer.
 
 .
 
-
-
 4
-
-
-
-
 
 Cables blindados unipolares y dobles
 
@@ -368,8 +354,6 @@ motivo no es recomendable enrol ar los cables de parlantes,
 
 debido a que esto aumenta su inductancia.
 
-
-
 Otro problema que puede repercutir, dependiendo de la __Cables no blindados
 
 impedancia de la carga, es el de la resistencia del cable.
@@ -387,10 +371,6 @@ ser importantes y disminuir en forma notoria el rendimiento de nuestro sistema.
 en la cual ρ es el coeficiente de resistividad del material, l su longitud y S su área transversal.
 
 5
-
-
-
-
 
 CONECTORES Y FICHAS
 
@@ -470,10 +450,6 @@ casos el conductor del medio (Ring).
 
 6
 
-
-
-
-
 .
 
 TRS
@@ -499,8 +475,6 @@ jack no balanceado (tip/sleeve) la línea se desbalanceará, pero la
 Plug y Jack
 
 polaridad se mantendrá correcta.
-
-
 
 Uno de los problemas que presentan los plugs es que pueden producir ruido cuando
 
@@ -551,10 +525,6 @@ dispositivos conectados; y
 c) la posibilidad de oscilación causada por diafonía (Crosstalk).
 
 7
-
-
-
-
 
 El plug TRS estándar o el TS tiene un diámetro de 1/4” (6.25 mm). Existen algunos
 
@@ -609,8 +579,6 @@ precio más elevado en comparación con otros, y las precauciones necesarias par
 soldarlos a los cables.
 
 8
-
-
 
 Conectores RCA
 
@@ -667,8 +635,4 @@ materia Taller de Instrumental y Equipos I de la Carrera de Composición con Med
 Electroacústicos de la Universidad Nacional de Quilmes.
 
 9
-
-
-
-
 

@@ -1,7 +1,5 @@
 Corriente Alterna
 
-
-
 Para comenzar a entender la diferencia entre corriente continua CC (que es el
 
 tipo que venimos estudiando hasta ahora) y la corriente alterna CA, debemos
@@ -10,11 +8,7 @@ entender algunos conceptos básicos de teoría de señales eléctricas y
 
 trigonometría.
 
-
-
 Señales Eléctricas
-
-
 
 Definiremos señal eléctrica en general a una señal cuyos valores de tensión y
 
@@ -25,10 +19,6 @@ hacer una representación gráfica de estas señales debemos utilizar un sistema
 apropiado. En este caso utilizaremos el sistema de ejes cartesianos de dos
 
 dimensiones, que se representa de la siguiente manera:
-
-
-
-
 
 Como vemos tenemos un eje horizontal (eje X de absisas) donde nosotros
 
@@ -48,8 +38,6 @@ origen del eje cartesiano, y muestra el comienzo “0” de ambos ejes. A la
 
 derecha del origen los valores de X son positivos, a la izquierda del origen los
 
-
-
 valores de X son negativos, arriba del origen los valores de Y son positivo y
 
 abajo son negativos.
@@ -57,10 +45,6 @@ abajo son negativos.
 Esto se observa aun más claro cuando entendemos que el sistema cartesiano
 
 se divide en 4 cuadrantes:
-
-
-
-
 
 El cuadrante I tiene valores de X e Y positivos.
 
@@ -70,21 +54,15 @@ El cuadrante III tiene valores de X negativos e Y negativos.
 
 El cuadrante IV tiene valores de X positivos e Y negativos.
 
-
-
 En realidad para la representación de señales eléctricas solo utilizaremos los
 
 cuadrantes I y IV. Gracias a estos datos ya tenemos un sistema donde poder
 
 graficar los valores de amplitud en función del tiempo de una señal eléctrica.
 
-
-
 El sistema de notación que se utiliza para representar a una señal eléctrica
 
 esta dado de la siguiente manera.
-
-
 
 Cuando hablamos de X(t), nos referimos a alguna magnitud que depende del
 
@@ -98,17 +76,11 @@ Cuando hablamos de i(t) nos referimos a una corriente cuya intensidad
 
 depende del tiempo.
 
-
-
-
-
 Por lo general se designa la palabra señal para referirse a magnitudes que
 
 varían de alguna forma en el tiempo. Interpretaremos a las magnitudes
 
 constantes como casos particulares de señales eléctricas.
-
-
 
 Características comunes
 
@@ -124,15 +96,9 @@ imperturbables con el correr del tiempo, o sea cuyo valor no varía con el paso
 
 del tiempo:
 
-
-
 Las señales variantes obtienen su nombre justamente por que tienen la
 
 característica de variar sus valores con el correr del tiempo:
-
-
-
-
 
 Como se puede observar fácilmente, las señales mostradas siempre se
 
@@ -145,8 +111,6 @@ presentará otra clasificación posible.
 Entonces, nos encontramos ahora con las que se llaman señales continuas y
 
 alternas.
-
-
 
 Las señales continuas son aquellas que siempre presentan un mismo signo
 
@@ -162,8 +126,6 @@ hacia un solo lado en todo instante de tiempo, aunque su valor puede variar.
 
 Las gráficas arriba mostradas representan ambas, señales continúas.
 
-
-
 En cambio, las señales alternas varían el signo de su magnitud con el paso
 
 del tiempo. Esto quiere decir que este tipo de señales ocupan el cuadrante I y
@@ -174,17 +136,11 @@ dirección cuando se pase de un cuadrante a otro. Por estas características, un
 
 señal alterna nunca puede ser constante.
 
-
-
-
-
 En la gráfica de arriba se observa inmediatamente la diferencia: Ambas señales
 
 son variantes en el tiempo, pero una de ellas ocupa solo el primer cuadrante
 
 (señal continua) y otra los cuadrantes I y IV (alterna).
-
-
 
 Hasta este momento, solamente habíamos realizado cálculos y aplicado leyes
 
@@ -198,8 +154,6 @@ Comenzaremos entonces el estudio específico de las señales alternas, en
 
 nuestro caso señales de corriente alterna (CA).
 
-
-
 Señales Alternas
 
 Nos centraremos ahora en describir algunas de las características más
@@ -212,17 +166,11 @@ Las señales alternas pueden ser periódicas o aperiódicas. Pero que significa
 
 esto?
 
-
-
 Las señales periódicas toman su nombre de las características que poseen de
 
 repetir sus valores cada cierto tiempo, o sea que pueden poseer un patrón de
 
 repetitividad, por ejemplo:
-
-
-
-
 
 Como se observa en la gráfica los valores se van repitiendo. De aquí se
 
@@ -250,10 +198,6 @@ Entonces, la frecuencia se traduce como la relación existente entre la
 
 frecuencia y el periodo de la señal, y su fórmula es la siguiente:
 
-
-
-
-
 Donde f es la frecuencia a calcular. T es el periodo, y el uno que allí aparece
 
 representa la ventana temporal de 1 segundo donde se medirá la cantidad de
@@ -276,8 +220,6 @@ Si la señal tiene un periodo de 0.2 segundos, entonces la frecuencia será igua
 
 a 1 / 0.2 = 5 Hz.
 
-
-
 Un problema inverso sería el de tratar de saber cuanto es el periodo de una
 
 señal que tiene una frecuencia de 440 Hz, que dicho sea de paso es
@@ -290,11 +232,7 @@ lado izquierdo de la ecuación multiplicando a f, y luego pasamos f dividiendo a
 
 1. La ecuación quedaría entonces:
 
-
-
 T = 1 / f
-
-
 
 f ya lo tenemos (440 Hz), y entonces el periodo sería igual aproximadamente a
 
@@ -304,11 +242,7 @@ milisegundos una magnitud solo se debe correr la coma tres lugares hacia la
 
 derecha).
 
-
-
 Este tipo de señales son las que más utilizaremos en esta primera etapa.
-
-
 
 En contraparte a las señales periódicas, existen las señales aperiódicas que
 
@@ -332,15 +266,11 @@ Nos centraremos entonces en las señales periódicas, ya que serán más fácile
 
 de manejar en esta primera instancia.
 
-
-
 Características de las señales periódicas
 
 Hay varios parámetros de amplitud que se pueden identificar en la señal
 
 periódica alterna:
-
-
 
 Amplitud de pico: es el valor máximo que tiene una señal. Se mide desde el
 
@@ -348,15 +278,11 @@ valor de amplitud cero, hasta la máxima elongación en amplitud que alcanza la
 
 onda.
 
-
-
 Amplitud pico a pico: es el valor que podemos medir desde la máxima
 
 elongación negativa (máximo valor negativo) hasta la máxima elongación
 
 positiva de la onda (máximo valor positivo), en el rango de la amplitud.
-
-
 
 Valor eficaz: Debido a que las señales alternas cambian continuamente se
 
@@ -368,29 +294,17 @@ que en las mismas condiciones produce los mismos efectos de disipación de
 
 calor en una resistencia eléctrica que una tensión continua del mismo valor.
 
-
-
 Valor medio: es el promedio de todos los valores de una señal tomados en un
 
 ciclo. Para señales simétricas como la senoidal, el valor medio es nulo.
-
-
 
 Valor instantáneo: Es el valor que toma la señal en determinado instante de
 
 tiempo.
 
-
-
-
-
 En la gráfica se observan los valores de amplitud explicados. Vp, valor pico,
 
 Vpp, valor pico pico. El valor medio de esta onda es 0.
-
-
-
-
 
 Por supuesto, pueden existir infinita cantidad de ondas que sean periódicas.
 
@@ -398,11 +312,7 @@ Pero a nosotros nos interesará, debido a unas cuantas características que
 
 ayudan a los cálculos de los diferentes tipos de valores, la onda senoidal.
 
-
-
 Señal Senoidal
-
-
 
 Se considera a la señal senoidal una de las señales de “prueba” más
 
@@ -411,10 +321,6 @@ interesantes. Se le llama de prueba por que las señales senoidales son las que
 se utilizan casi siempre para realizar comprobaciones en los equipos
 
 electrónicos, esto es justamente por las características especiales que posee.
-
-
-
-
 
 La señal senoidal tiene varias características que la hacen única y diferente a
 
@@ -448,29 +354,13 @@ Este valor se obtiene, solo en señales señoidales, dividiendo el valor pico de
 
 señal por la raíz cuadrada de 2, o lo que es lo mismo multiplicado por 0.707.
 
-
-
-
-
 Veficaz = Vpico/√2
-
-
-
-
 
 Veficaz = Vpico*0.707
 
-
-
 Si nos referimos a la tensión eficaz entonces el cálculo sería
 
-
-
-
-
 Vef = Vpico/√2
-
-
 
 NOTA:
 
@@ -498,13 +388,7 @@ tres razones:
 
 - Es fácil de usar.
 
-
-
-
-
 Simbología
-
-
 
 Por supuesto cuando hablamos de CA estamos hablando tanto de una tensión
 
@@ -512,13 +396,7 @@ que es alterna, como una corriente que es alterna. Un generador de tensión en
 
 alterna será simbolizado en un circuito de la siguiente manera:
 
-
-
-
-
 Ley de Ohm en CA
-
-
 
 Una resistencia puede conectarse directamente a un generador de tensión
 
@@ -526,23 +404,13 @@ alterna, como lo hacíamos con una fuente de tensión continua, como lo indica
 
 el siguiente gráfico:
 
-
-
-
-
 En este caso, y por tratarse de un componente pasivo con respecto a la
 
 frecuencia de la señal (o sea, no afecta a la señal en frecuencia) la tensión y la
 
 corriente se encuentra en fase:
 
-
-
-
-
 Diagrama vectorial de una tensión y una intensidad sobre una resistencia pura
-
-
 
 Como indicamos arriba la resistencia se comporta de forma similar en CC como
 
@@ -552,11 +420,7 @@ tener en cuenta que estas leyes se aplican sobre los valores eficaces de
 
 corriente y tensión:
 
-
-
 Ief = Vef / R
-
-
 
 De esta manera se deduce que para una tensión eficaz determinada aplicada a
 
@@ -574,8 +438,6 @@ Este efecto se puede comprobar experimentalmente. Si se conecta un
 
 wattimetro para medir una resistencia pura, se puede verificar que la lectura del
 
-
-
 wattimetro es la misma en CC que en CA, siempre y cuando se utilice los
 
 mismo valores de tensión e intensidad.
@@ -584,35 +446,23 @@ Por lo tanto la potencia en CA se puede calcular como:
 
 P = Vef.Ief
 
-
-
 NOTA: la tensión eficaz y la corriente eficaz es la que indican los voltímetros y
 
 amperímetros, respectivamente
-
-
 
 Las relaciones entre valor eficaz y valor pico serán las siguientes, siempre
 
 teniendo en cuenta que estamos utilizando una señal senoidal:
 
-
-
 Tensión:
 
 Vef = Vpico*0.707
-
-
 
 Corriente:
 
 Ief = Ipico*0.707
 
-
-
 Fase y Desfasaje
-
-
 
 La fase de una onda es el momento angular en que se encuentra cuando
 
@@ -622,10 +472,6 @@ siguiente gráfico observaremos que cada una de estas posee una fase
 
 diferente a la otra:
 
-
-
-
-
 Cuando dos señales idénticas como las que vimos se encuentran en diferente
 
 fase, se dice que están desfasadas.
@@ -633,10 +479,6 @@ fase, se dice que están desfasadas.
 Una vez explicado esto podemos ver la ecuación de la onda senoidal y
 
 entender que es cada factor que la forma:
-
-
-
-
 
 V1(t) y V2(2)= Señales senoidales que se desarrollan en el tiempo
 
@@ -654,17 +496,9 @@ t = momento de tiempo en el que se desarrolla
 
 diferente.
 
-
-
-
-
 Apunte realizado por Esteban Calcagno y Martín Matus para uso interno exclusivo de la
 
 materia Taller de Instrumental y Equipos I de la Carrera de Composición con Medios
 
 Electroacústicos de la Universidad Nacional de Quilmes.
-
-
-
-
 

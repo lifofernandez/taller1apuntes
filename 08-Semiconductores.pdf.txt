@@ -40,10 +40,6 @@ ejercen su fuerza sobre electrones de otros átomos (esto en química se denomin
 
 enlace covalente).
 
-
-
-
-
 Diagrama del enlace covalente en los cristales de silicio
 
 Estos cristales dan como resultado un cuerpo compacto de material de silicio. En
@@ -60,8 +56,6 @@ huecos y electrones libres que se van recombinando (llenando y vaciando) de mane
 
 que en determinadas condiciones permiten la conducción de corriente eléctrica.
 
-
-
 Pero para que este proceso sea aun más efectivo, se añaden impurezas al material
 
 semiconductor lo que modifica su conductividad eléctrica. Esto se denomina “dopaje”
@@ -73,8 +67,6 @@ mayor cantidad de huecos y mayor cantidad de electrones libres.
 De esta manera se producen semiconductores tipo N y tipo P, el primero con mayor
 
 cantidad de electrones libres y el otro con mayor cantidad de huecos.
-
-
 
 Semiconductores N-P
 
@@ -98,15 +90,9 @@ conducir corriente eléctrica. En otras palabras, para que el material se compor
 
 un conductor, se debe sobrepasar una determinada tensión entre sus extremos.
 
-
-
-
-
 Diodo
 
 En el caso del diodo tenemos un semiconductor tipo PN:
-
-
 
 Si aplicamos una diferencia de potencial de tal manera que la barrera de potencial se
 
@@ -115,10 +101,6 @@ rompa, podemos contar con que el flujo de corriente se producirá. Para esto, el
 terminal positivo de la fuente de tensión debe estar conectado al terminal positivo
 
 (lado P del semiconductor PN):
-
-
-
-
 
 A esto se lo denomina como “polarización en directa”. En un diodo de silicio la menor
 
@@ -138,8 +120,6 @@ puede superar los miles de volts. En ningún momento conducirá corriente, sino 
 
 solo, si la tensión es muy alta, se romperá. Esto se denomina “tensión de ruptura.”
 
-
-
 Veremos que los diodos son sumamente importantes para poder transformar
 
 corriente alterna en corriente continua, y son la base de las fuentes de alimentación y
@@ -147,10 +127,6 @@ corriente alterna en corriente continua, y son la base de las fuentes de aliment
 otro sin fin de circuitos electrónicos.
 
 El símbolo eléctrico del diodo es:
-
-
-
-
 
 Aquí también podemos observar su terminal positivo (ánodo) y su terminal negativo
 
@@ -168,17 +144,9 @@ Esto denota la utilidad que los semiconductores a la hora de desarrollar circuit
 
 utilizados para el procesamiento de audio.
 
-
-
-
-
 Apunte realizado por Esteban Calcagno y Martín Matus para uso interno exclusivo de la
 
 materia Taller de Instrumental y Equipos I de la Carrera de Composición con Medios
 
 Electroacústicos de la Universidad Nacional de Quilmes.
-
-
-
-
 

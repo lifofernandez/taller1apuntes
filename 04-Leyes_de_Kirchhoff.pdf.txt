@@ -42,10 +42,6 @@ IT = IR1 + IR2 + IR3
 
 1
 
-
-
-
-
 Segunda Ley de Kirchhoff o Ley de tensiones
 
 Así como la Ley de corrientes presentada anteriormente nos proporciona la relación entre los
@@ -90,8 +86,6 @@ tensiones, asignando signo positivo a las tensiones que vayan en la misma direcc
 
 2
 
-
-
 recorrido que estoy siguiendo y signo negativo a las que vayan en sentido opuesto (de manera
 
 análoga a lo que hicimos con las corrientes cuando aplicamos la primera ley)
@@ -131,8 +125,4 @@ de Instrumental y Equipos I de la Carrera de Composición con Medios Electroacú
 Universidad Nacional de Quilmes.
 
 3
-
-
-
-
 
