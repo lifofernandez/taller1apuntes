@@ -71,13 +71,13 @@ Cada una de estas dos bobinas posee una cantidad de espiras, por lo que tenemos 
 Número de Espiras del Primario (Np) y un Número de Espiras del Secundario (Ns). El
 número de espiras en ambas bobinas determina la relación directa entre las tensiones
 que tenemos entre le primario (Vp) y el secundario (Vs):
-
-Vp/Vs = Np/Ns
-
+```
+Vp / Vs = Np / Ns
+```
 Si despejamos entonces:
-
-Vs = Vp * Ns/Np
-
+```
+Vs = Vp * Ns / Np
+```
 Esta relación determinará que tipo de transformador tenemos:
 
 Tipos de trasformadores en relacion a la tension:
@@ -92,10 +92,10 @@ Las últimas dos configuraciones se utilizan como transformadores de tensión, c
 también para procesar audio (telefonía).
 
 Ejemplos:
-
+```
 10:1 220V 22V
 1:10 220V 2200V
-
+```
 En todos los casos donde tenemos un transformador se entra con corriente alterna y
 se sale con corriente alterna.
 
@@ -103,17 +103,17 @@ La **potencia en el primario y el secundario siempre será la misma, solamente s
 producen las variaciones necesarias de corriente para equilibrar ambos lados**:
 
 O sea, por ejemplo en el transformador elevador (12V 24V) 
-
+```
 Si Ps = Pp
 -> Vs > Vp
 -> Is < Ip
-
+```
 En un transformador reductor (220V 24V)
-
+```
 Si Ps = Pp
 -> Vs < Vp
 -> Is > Ip
-
+```
 De esta manera no hay desbalances de potencia, ya que la corriente se adecua a la
 situación.
 Con respecto a la frecuencia, esta se mantiene inalterable cuando es inducida al
@@ -142,8 +142,7 @@ minimiza utilizando láminas de metal en vez de un bloque de metal para el núcl
 Entonces cuando se tiene un transformador hay que tener en cuenta las siguientes
 perdidas:
 
-- Pérdidas por la resistencia del cobre, tanto en el primario como en el
-secundario.
+- Pérdidas por la resistencia del cobre, tanto en el primario como en el secundario.
 - Pérdidas por el núcleo por las corrientes parasitas y el efecto de histéresis.
 
 Estas pérdidas producen elevación de temperatura.
@@ -237,6 +236,7 @@ tener en cuenta que la tensión con la cual se alimenta a la fuente (red hogare�
 también varía bastante con respecto a los 220 V que conocemos.
 
 Si RL aumenta, aumenta la tensión de salida.
+
 Si RL baja, disminuye la tensión de salida.
 
 El peligro de tener una fuente no regulada es que con resistencias de carga muy bajas
@@ -252,6 +252,7 @@ El regulador de tensión posee tres patas, una de entrada, una de salida y
 otra de tierra. Los reguladores pueden tener varios valores de salida.
 
 7815 Regulador positivo (78) – Tensión de salida regulada (15)
+
 7915 Regulador negativo (79) – Tensión de salida regulada (15)
 
 Las tensiones más utilizadas pueden ser: 05 – 08 – 09 – 12 – 15
@@ -287,32 +288,32 @@ necesitamos.
 
 Como 22v es el valor pico de la señal, para **calcular el valor eficaz de la salida del
 secundario del transformador solamente hacemos la cuenta**:
-
+```
 Vs = Vp / √2 = 22V / √2 = 15.55vef
-
+```
 De esta manera vemos que necesitaremos un transformador que pase de 220v a
 15.55v.
 Esto significa que la relación entre espiras debe ser de 14.14:
-
+```
 220v / 15.55 = Np / Ns = 14.14
-
+```
 También podemos calcular cual sería la tensión que debe tener la red eléctrica para
 llegar al límite de 30vpico en el secundario, lo que respondería a una suba de tensión:
-
-Vef secundario = 30v / √2 = 21.21vef
-
-Vlinea / 21.21vef = 14.14 Vlinea = 21.21vef x 14.14 = 299.9V
-
+```
+Veficaz del secundario = 30v / √2 = 21.21vef
+     Vlinea / 21.21vef = 14.14 
+                Vlinea = 21.21vef . 14.14 = 299.9V
+```
 O sea la tensión de línea debería llegar a casi 300V para que nuestro regulador
 comience a funcionar mal.
 
 Podemos seguir pensando en cual sería la tensión mínima de línea para llegar a los 17v
 pico mínimos que necesita el regulador.
-
-Veficaz del secundario = 14vi / √2 = 12.02vef
-
-Vlinea / 12.02vef = 14.14 Vlinea = 12.02vef x 14.14 = 169.66V
-
+```
+Veficaz del secundario = 14v / √2 = 12.02vef
+     Vlinea / 12.02vef = 14.14
+                Vlinea = 12.02vef x 14.14 = 169.66V
+```
 De esta manera tenemos ya armada nuestra fuente de alimentación regulada, que
 puede también llamarse Fuente d Tensión Convencional.
 
@@ -324,17 +325,18 @@ pasiva de trabajo del transistor. Así se forma una onda cuadrada de alta frecue
 alimenta a transformadores de núcleo de ferrite, que son muchos más livianos que los
 transformadores comunes, y tienen la capacidad de trabajar mucho mejor en altas
 frecuencias.
-Las ventajas son:
 
-1- poseen un amplio margen de trabajo en tensión de entrada
-2- Su peso físico es muy bajo comparado a una fuente convencional
-3- mayor eficiencia de transformación de tensiones, y por eso menor calentamiento.
+Las ventajas son:
+1. poseen un amplio margen de trabajo en tensión de entrada
+2. Su peso físico es muy bajo comparado a una fuente convencional
+3. mayor eficiencia de transformación de tensiones, y por eso menor calentamiento.
 
 Las desventajas son:
+1. son más complejas de construir.
+2. producen ruido de alta frecuencia que debe ser aislado cuidadosamente.
 
-1- son más complejas de construir.
-2- producen ruido de alta frecuencia que debe ser aislado cuidadosamente.
 
+---
 Apunte realizado por Esteban Calcagno y Martín Matus para uso interno exclusivo de la materia Taller
 de Instrumental y Equipos I de la Carrera de Composición con Medios Electroacústicos de la Universidad
 Nacional de Quilmes.
