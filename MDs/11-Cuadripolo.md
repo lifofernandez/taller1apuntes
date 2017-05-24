@@ -122,7 +122,7 @@ cada paso de ganancia, se debe aumenta 3dB para que la potencia aumente el
 doble. Como se darán cuenta en cada aumento sucesivo de 3dB de potencia,
 el sistema necesitará aumentar su valor en forma logarítmica.
 ```
-B = log10( 32w / 16w) = log10(2) = 0.3b
+ B = log10( 32w / 16w)      = log10(2)      = .3b
 dB = 10 . log10( 32w / 16w) = 10 . log10(2) = 3dB
 ```
 ### Ganancia de Tensión en decibeles (dBv)
@@ -136,7 +136,7 @@ dB = 10 . log10 ( p2 / p1 )
    = 10 . log10 ( ( V2^ / R2 ) / ( V1^ / R1 ) ) 
    = 10 . log10 ( ( V2^ / V1^ ) / ( R2 / R1 ) ) 
    = 10 . log10 ( V2 / V1 )^ - 10 . log ( R2 / R1 ) 
-  = 20 . log10 ( V2 / V1 )  - 10 . log ( R2 / R1 ) 
+   = 20 . log10 ( V2 / V1 )  - 10 . log ( R2 / R1 ) 
 ```
 Para la situación en que R1 es igual a R2, que es una situación estándar,
 eliminamos el segundo término de la ecuación, ya que el logaritmo natural de 1
