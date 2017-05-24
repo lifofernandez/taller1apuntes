@@ -96,11 +96,11 @@ de las señales de audio.
 
 Ahora presentaremos algunos ejemplos de logaritmos naturales:
 ```
-Log 100 = 2 10 elevado a la 2 = 100
-Log 10 = 1 10 elevado a la 1 = 10
-Log 1 = 0 10 elevado a la 0 = 1
-Log 0.1 = -1 10 elevado a la -1 = 0.1
-Log 0.01= -2 10 elevado a la -2 = 0.01
+Log 100  =  2 10 elevado a la 2  = 100
+Log 10   =  1 10 elevado a la 1  = 10
+Log 1    =  0 10 elevado a la 0  = 1
+Log 0.1  = -1 10 elevado a la -1 = 0.1
+Log 0.01 = -2 10 elevado a la -2 = 0.01
 ```
 Log de x tendiendo a 0 (que no es lo mismo que x = 0) es -∞ (un numero
 infinito pero negativo). De este hecho particular se desprende que en una
