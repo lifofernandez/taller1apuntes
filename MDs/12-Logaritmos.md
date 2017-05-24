@@ -14,7 +14,7 @@ estamos adecuándonos a nuestra forma de percibir.
 
 Tengamos en cuenta la siguiente función matemática:
 ```
-N = ( b ) ^ x
+N = ( B ) ^ X
 ```
 Se trata ni más ni menos de una función exponencial.
 
@@ -29,7 +29,7 @@ Por ejemplo:
 Ahora supongamos que queremos saber cual es el exponente x al cual hay que
 elevar la base b para obtener el número N.
 ```
-1200 = (10) ^ X
+1200 = ( 10 ) ^ X
 ```
 Para eso se utilizan los logaritmos, ya que el logaritmo, en base 10, de 1200
 nos da ese valor de X:
