@@ -1,464 +1,474 @@
 Cuadripolos
 
+
 La definición de cuadripolo remite a un dispositivo eléctrico genérico que posee
-
 dos entradas y dos salidas, y que al inyectarle algún tipo de señal eléctrica
-
 realiza algún tipo de proceso, generando determinadas diferencias entre la
-
 señal de entrada y de salida. O sea el cuadripolo es un dispositivo que toma
-
 una señal de entrada y nos entrega una señal de salida que es el producto de
-
 una transformación de algún tipo de la señal que se inyecto.
 
+
+
+
 A partir de la definición de cuadripolo, se puede definir que este tendrá una
-
 ganancia definidas por la relación entre su entrada y su salida, específicamente
-
 el cociente entre el valor de entrada y el valor de salida será la ganancia:
+
 
 Ganancia = Salida / Entrada
 
+
 Por ejemplo, si a la entrada tenemos un valor de 2 (no importa de que) y a la
-
 salida tenemos un valor de 4, entonces determinamos que la ganancia es de 2.
-
 Esto significa que el cuadripolo esta amplificando la señal, esta haciendo ganar
-
 el doble a su entrada. Si en cambio, con un valor de entrada 2, tenemos un
-
 valor 1 a la salida, la ganancia será de 0.5, el cuadripolo esta atenuando, o sea
-
 esta haciendo perder a la entrada la mitad de su valor.
-
 Ahora demos un paso más sobre la conformación de un cuadripolo.
 
+
 Desde el punto de vista eléctrico, el cuadripolo posee una resistencia de
-
 entrada (Ri) y una resistencia de salida (Ro). Al aplicar una señal de tensión en
-
 la entrada (Vi), obtendremos una corriente de entrada (Ii). Luego de los
 
+
 procesos que realice el cuadripolo, si conectamos una resistencia de carga
-
 (RL) en su salida, podremos medir una tensión de salida (Vo) y una corriente
-
 de salida (Io).
 
+
+
+
 El cuadripolo en si puede tratarse de un circuito (un divisor de tensión, por
-
 ejemplo) simple o complejo (una consola, un procesador dinámico, etc) pero
-
 siempre tendrá las características que arriba se mencionan, y siempre podrá
-
 analizarse mediante esos parámetros, ya que se tiene en cuenta sus valores de
-
 entrada y sus valores de salida.
-
 Mediante esta herramienta de análisis podemos medir, calcular o analizar los
-
 valores de ganancia de tensión, corriente y potencia de un sistema dado, que
-
 por supuesto posea las características del cuadripolo.
+
 
 Ganancia de tensión, corriente y potencia:
 
+
 Si la ganancia de un cuadripolo esta definida por el cociente entre sus valores
-
 de salida y sus valores de entrada, podemos definir a la ganancia de tensión de
-
 una cuadripolo como el cociente entre su tensión de salida sobre su tensión de
-
 entrada:
+
 
 Gv = Vo/Vi
 
+
 En general se trabajará con valores eficaces de tensión.
+
 
 Del mismo modo podemos determinar la ganancia de corriente del cuadripolo:
 
+
 Gi = Io/Ii
+
 
 Y la ganancia de potencia del cuadripolo:
 
+
 Gp = Vo.Io / Vi.Ii
+
+
+
 
 Algunos ejemplos de cálculo de ganancias:
 
+
 Si por ejemplo:
 
-Vi = 0.5 volts
 
+Vi = 0.5 volts
 Vo = 0.25 volts
 
-GV = 0,25 volts /0.5 volts = 0.5 la ganancia es menor a 1, por lo tanto en
 
+GV = 0,25 volts /0.5 volts = 0.5 la ganancia es menor a 1, por lo tanto en
 realidad este cuadripolo estaría atenuando la señal de entrada.
 
-Vi = 0.5 volts
 
+Vi = 0.5 volts
 Vo = 1 volts
 
-GV = 1 volts / 0.5 volts = 2 la ganancia es mayor a 1, por lo tanto la señal
 
+GV = 1 volts / 0.5 volts = 2 la ganancia es mayor a 1, por lo tanto la señal
 esta siendo amplificada.
 
-Vi = 0.5 volts
 
+Vi = 0.5 volts
 Vo = 0.5 volts
 
-Gv = 0.5 volts / 0.5 volts la ganancia es igual a 1, por lo tanto la ganancia es
 
+Gv = 0.5 volts / 0.5 volts la ganancia es igual a 1, por lo tanto la ganancia es
 unitaria.
 
-En este caso los valores de ganancia están determinados en veces, o sea
 
+En este caso los valores de ganancia están determinados en veces, o sea
 siempre nos da un número sin unidad.
+
+
+
 
 Decibeles
 
+
 Ganancia de potencia en decibeles:
 
+
 Otra forma de presentar los valores de ganancia de un sistema es mediante la
-
 aplicación de la unidad de medición llamada bel, que esta definida ni más ni
-
 menos que por la función logarítmica que se explica en el apunte de logaritmos:
 
+
+
+
 Como se observa, esta unidad compara directamente los valores de potencia
-
 de salida (P2) con los de entrada (P1), para luego aplicar el logaritmo natural, y
-
 obtener un valor en bel.
-
 Sin embargo, se determina una unidad de magnitud aun menor que el bel, y se
-
 trata del decibel.
-
 En el caso de la potencia, el decibel estará determinado por la siguiente
-
 ecuación:
 
+
+
+
 Esta ecuación es una de las más importantes utilizadas a la hora de comparar
-
 valores de potencia. El decibel se simboliza con las letras dB.
-
 Analizando esta ecuación notamos que si por ejemplo, la potencia de salida
-
 (P2) es 2 veces la de entrada, obtendremos un valor de 3 decibeles:
 
-Para un sistema determinado de audio, un incremento de 3dB en la salida,
 
+
+
+Para un sistema determinado de audio, un incremento de 3dB en la salida,
 requerirá que el nivel de potencia se duplique. Si tenemos una señal y la
 
+
+
+
 ganancia que se obtiene luego de pasarla por un cuadripolo es 1dB de potencia
-
 será apenas perceptible, un aumento de 2 dB será apreciable y un aumento de
-
 3dB (que establece el doble de ganancia) dará por resultado un incremento
-
 fácil de distinguir a nivel auditivo.
 
+
 Ejemplo:
-
 Si tenemos un sistema de 16 watts de potencia, un aumento de 3dB de
-
 potencia significará una potencia de 32 watts a la salida, y un nuevo aumento
-
 de 3 dB significará una potencia de salida de 64 watts. Esto significa que en
-
 cada paso de ganancia, se debe aumenta 3dB para que la potencia aumente el
-
 doble. Como se darán cuenta en cada aumento sucesivo de 3dB de potencia,
-
 el sistema necesitará aumentar su valor en forma logarítmica.
+
 
 Ganancia de Tensión en decibeles
 
+
 Los decibeles también se utilizan para realizar comparaciones de tensiones. Si
-
 sustituimos los valores de potencia mediante las ecuaciones que relacionan a
-
 esta con una tensión y una resistencia, obtendremos la forma en que se utilizan
-
 los decibeles para medir ganancia de tensión:
 
+
+
+
 Para la situación en que R1 es igual a R2, que es una situación estándar,
-
 eliminamos el segundo término de la ecuación, ya que el logaritmo natural de 1
-
 es 0, y obtenemos la ecuación estándar para la medición de ganancia de
-
 tensión en decibeles:
+
+
+
 
 Se observa que la ganancia de tensión en decibeles se escribe como dBv.
 
-Ahora se presenta una tabla donde se indica los valores de ganancia de
 
+Ahora se presenta una tabla donde se indica los valores de ganancia de
 tensión en veces (Vo/Vi) y su paralelo en decibeles:
 
+
+
+
 Se puede observar a primera vista que una ganancia de 2, o sea el doble de la
-
 señal de entrada, en el caso de la ganancia de tensión es de 6 dB. También
-
 podemos darnos cuenta que una ganancia desde 1 a 100.000, se muestra en
-
 decibeles en una escala bastante menor, lo que es más fácil de manejar y
-
 graficar. También podemos observar que una ganancia de 10, representa un
-
 incremento de 20 decibeles.
-
 Es interesante destacar que los decibeles permiten controlar variaciones muy
-
 grandes de valores, lo que nos da un manejo más ameno, más teniendo en
-
 cuenta que en general los valores con los que trabajamos en audio pueden
-
 representar estas grandes variaciones, por ejemplo:
 
+
 Si tenemos una señal de entrada de 2.4 microvolt y una señal de salida de 24
-
 volts, tendremos una ganancia de 10.000.000 de veces. Este mismo valor pero
-
 expresado en decibeles será de 140. Por lo tanto sus valores intermedios
-
 también podrán ser manejados de manera cómoda.
 
-Los beneficios de utilizar decibeles se entienden aun más a la hora de analizar
 
+Los beneficios de utilizar decibeles se entienden aun más a la hora de analizar
 la forma en que los humanos escuchamos.
 
+
+
+
 Respuesta auditiva humana
-
 El oído responde de forma logarítmica a cambios en los niveles de presión
-
 sonora.
-
 Para poder realizar una comparación entre los niveles mínimo y máximo de
-
 audición, se estableció que la mínima presión sonora audible, se trata de
-
 0.0002 micro bar, que se calcula utilizando la siguiente ecuación.
+
+
+
 
 Otra ecuación, que refiere a este valor umbral de audición en pascales es:
 
+
 dB SPL = 20 log Px / 20 micro pascales
 
+
 Estas ecuaciones determinan lo que se llama dBSPL, o decibeles de niveles de
-
 presión sonora.
-
 Si tenemos en cuenta que el oído humano soporta un nivel máximo de presión
-
 sonora de 20 pascales (variaciones de presión atmosférica de 20 pascales),
-
 obtenmos el siguiente valor de dBSPL:
+
 
 dB SPL = 20 log 20 pascales / 20 micropascales = 120 dB
 
+
 Así logramos representar una variación de 1.000.000 millón en 120 dBSPL.
 
+
 Es muy importante notar que trabajando en decibles, lo que se logra es que
-
 todas las ganancias presenten la misma variación, ya que por ejemplo, en un
-
 micrófono, una variación de 5 dB de presión sonora se transfiere en una
-
 variación de 5 dB en la ganancia de tensión, por lo que se logra un mayor
-
 control de ganancias del sistema.
-
 Se trata ni más ni menos que de relaciones logarítmicas que nos permiten
-
 trabajar más cómodos con valores de diferentes magnitudes y con valores muy
-
 altos o muy bajos.
-
 Si bien las ganancias en si pueden ser distintas, si se aumenta en una cadena
-
 de audio determinada cantidad de dB todo se traslada la misma cantidad de dB
-
 a las otras magnitudes.
 
+
 Cabe destacar que el aumento o disminución de sonoridad depende de las
-
 frecuencias que estemos escuchando (curvas de sonorida de Fletcher y
-
 Munson).
+
+
+
 
 Niveles relativos estándar para ganancias en decibeles
 
+
 Teniendo en cuenta todo el apartado anterior nos podemos enfocar en las
-
 formas estándar que existen para calcular ganancias tanto de tensión como de
-
 potencia dentro del mundo del audio.
-
 Así en cuanto a niveles de potencia, podemos referirnos a dos formas de
-
 medir, dBm y dBw.
 
+
 El dBm remite a la ganancia de potencia pero teniendo como referencia 1 mili
-
 watt de potencia. Como antes teníamos al calcular los dBSPL la referencia de
-
 20 micro pascales, ahora tenemos la referencia de 1 mili watt.
+
+
+
 
 dBm = 10 log Px / 1mili watt
 
+
 Cuando hablamos de dBm no estamos refiriéndonos directamente a ganancias
-
 sino a niveles relativos de potencia referidos a 1 mili watt.
-
 El dBm proviene de la telefonía (ancestro directo del audio) donde 1 mw era la
-
 potencia nominal de audio para una línea telefónica.
-
 Esta potencia nominal estaba aplicada a resistencias de 600 ohm que se
-
 utilizaban como carga de las líneas telefónicas, ya que se trata de un valor
-
 promedio entre una impedancia alta y una impedancia baja. Si la resistencia es
-
 de bajo valor, tenemos ruido en la señala, si es de un valor alto, tenemos
-
 interferencia.
-
 Otra forma que se utiliza es el dBw, donde esta vez la referencia se da a 1 watt
-
 y es la que utilizaba en telefonía para cualquier impedancia.
-
 La formula sería:
+
+
+
 
 dBw = 10 log Px / 1watt
 
-Para la ganancia de tensión en decibeles también hay estándares establecidos.
 
+
+
+Para la ganancia de tensión en decibeles también hay estándares establecidos.
 En este caso son dos los más utilizados: dBv y dBu.
 
-En dBv la referencia esta a 1 volt, ya que se trata de ganancias de tensión
 
+En dBv la referencia esta a 1 volt, ya que se trata de ganancias de tensión
 expresadas en dB. La fórmula sería:
+
+
+
 
 dBv = 20 log Vx / 1 volt
 
+
 El cual también esta referido a cualquier resistencia que se cargue.
-
 Por último aparece el dBu como estándar de medición y cuyo valor de
-
 referencia es de 0,776 volts, que es ni mas ni menos que la tensión que se
-
 debe aplicar a una resistencia de 600 ohms para que desarrolle una potencia
-
 de 1 mili watt, otra vez un legado de la telefonía. La fórmula sería:
+
+
+
 
 dBu = 20 log Vx/0.776 volts
 
+
 Y como se ve, se desprende directamente de la definición de dBm.
-
 Para un pasaje rápido entre dBv y dBu, hay una relación directa que se da
-
 entre estos dos estandares, y que se obtiene fácilmente al calcular el valor en
-
 dB de una misma tensión, por ejemplo, 1 volts:
+
+
+
 
 dBv = 20 log 1volt / 1 volt = 0 dB
 
+
+
+
 dBu = 20 log 1volt / 0.776 volt = 2.2 dB
 
+
 Esta diferencia de 2,2 dB entre ambos estándares se mantiene siempre, por lo
-
 que de esta manera es fácil calcular un valor de dBu desde uno en dBv (los
-
 dBu son siempre 2.2 db más grande que dBm) y viceversa (dBv es 2.2 dB más
-
 chico que dBu)
+
+
+
 
 Escala del rango dinámico
 
+
 Para terminar de entender como se proyecta esto en el manejo de consolas y
-
 equipos de audio, se presentará una gráfica de rango dinámico y valores
-
 usuales a usar con la consola de mezcla:
+
+
+
 
 Cuadripolos en cascada
 
-En el caso de tener varios dispositivos cuadripolos en cascada, que será la
 
+En el caso de tener varios dispositivos cuadripolos en cascada, que será la
 forma más común en que se conectaran los equipos de audio:
 
-Para obtener la ganancia total de todo el sistema, solamente debemos
 
+
+
+Para obtener la ganancia total de todo el sistema, solamente debemos
 multiplicar las ganancias individuales en veces.
 
-Si tenemos, por ejemplo, tres sistemas la ganancia total de tensión en veces
 
+Si tenemos, por ejemplo, tres sistemas la ganancia total de tensión en veces
 estará dada por:
+
 
 GVt = Vo1/Vi1 . Vo2/Vi2 . Vo3/Vi3
 
+
 Si ahora queremos pasar esta ganancia total a decibeles, tendremos que
-
 aplicar alguna de las propiedades de los logaritmos que vimos anteriormente ya
-
 que:
+
 
 GVt / dB = 20log GVt = 20log GV1.GV2.Gv3
 
-Aplicando la propiedad del logaritmo del producto de dos o más número,
 
+Aplicando la propiedad del logaritmo del producto de dos o más número,
 obtenemos:
+
 
 GVt/dB = 20log GV1 + 20log GV2 + 20log GV3
 
-Por esto concluimos que la ganancia total en decibeles de un sistema de
 
+Por esto concluimos que la ganancia total en decibeles de un sistema de
 cuadripolos en cascada es la suma de sus ganancias parciales.
+
 
 Ejemplo:
 
+
 Los siguientes tres equipos tienen estas ganancias de tensión de decibeles
 
+
 Equipo A amplifica +10dB
-
 Equipo B atenua -6dB
-
 Equipo C amplifica + 8 dB
+
+
+
 
 Cual es la ganancia total de tensión?
 
+
 GVt / dB = 10dB + (- 6dB) + 8dB = +12dB de ganancia total
 
-Cualquier variación de la ganancia de tensión en dB se verá reflejada
 
+Cualquier variación de la ganancia de tensión en dB se verá reflejada
 directamente en la ganancia total de tensión.
+
+
+
 
 Apartado – Antilogaritmo:
 
-Para lograr pasar de valores en dB a valores de ganancia en veces, o sea
 
+Para lograr pasar de valores en dB a valores de ganancia en veces, o sea
 realizar la inversa de lo que hacíamos antes se utiliza el antilogaritmo.
+
+
+
 
 Que sería la definición que se encuentra a la derecha de esta ecuación.
 
+
 Un ejemplo sería:
+
+
+
 
 15 dBv = 20 log Vo/Vi
 
-15/20 = log Vo /Vi
 
+15/20 = log Vo /Vi
 10 ^ 15/20 = Vo / Vi
 
+
 Donde el símbolo ^ es el de exponente.
-
 De esta manera se puede pasar de una cantidad en dB a una cantidad en
-
 veces.
 
-Apunte realizado por Esteban Calcagno y Martín Matus para uso interno exclusivo de la materia Taller
 
+
+
+Apunte realizado por Esteban Calcagno y Martín Matus para uso interno exclusivo de la materia Taller
 de Instrumental y Equipos I de la Carrera de Composición con Medios Electroacústicos de la Universidad Nacional de Quilmes.
+
+
+
+
+
 
