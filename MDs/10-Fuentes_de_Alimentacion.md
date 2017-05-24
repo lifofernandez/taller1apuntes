@@ -24,7 +24,10 @@ diversos valores diferentes de tensión.
 Las fuentes de alimentación que vamos a estudiar pueden dividirse en general en
 cuatro grandes bloques que desarrollan funciones diferentes:
 
-Transformador - Rectificación - Filtrado - Regulación
+- Transformador
+- Rectificacióni
+- Filtrado
+- Regulación
 
 Repasaremos uno por uno cada uno de estos ítems para entender como funcionan las
 fuentes de tensión.
@@ -34,22 +37,23 @@ fuentes de tensión.
 Una bobina que es recorrida por una corriente variable (CA) desarrolla un campo
 magnético variable que pueden inducir fuerzas electromagneticas al atravesar otras
 bobinas que se encuentran en su proximidad.
-Esto puede verse claramente si observamos el siguiente gráfico:
 
 Cuando cerramos la llave, el instrumento (galvanómetro) nos marcará el paso de una
 pequeña corriente, pero esta volverá a cero. Si abrimos nuevamente la llave el
+instrumento indicará una corriente, pero en el sentido contrario. 
 
-instrumento indicará una corriente, pero en el sentido contrario. Esto se da por que al
-cerrar el interruptor, se aplica a la bobina A una corriente que tiende a crecer desde 0
+Esto se da por que al cerrar el interruptor, se aplica a la bobina A una corriente que tiende a crecer desde 0
 hasta su valor nominal. Esta variación produce un campo magnético variable y
 creciente sobre la bobina A. Como la bobina B se encuentra muy próxima a la bobina
 B, el campo magnético de la bobina A la atraviesa, produciendo de esta manera el
 principio de inducción electromagnética, y por lo tanto produciendo una corriente
-variable. Esta corriente solo se producirá mientras el campo magnético sea variable,
+variable.
+Esta corriente solo se producirá mientras el campo magnético sea variable,
 que es lo que pasa hasta que la corriente en la bobina A se estabiliza. Cuando se abre
 nuevamente la llave la corriente vuelve a variar desde su valor nominal a 0, varia el
 campo magnético y se produce la inducción, pero en este caso, la corriente es
 contraria a la primera.
+
 Al utilizar un generador de corriente alterna, la corriente se mantiene variable y de
 esta manera tenemos inducción electromagnética constante, produciendo una
 corriente variable en la otra bobina, y por lo tanto, si tenemos una carga a la salida,
@@ -66,21 +70,23 @@ eléctricamente aisladas.
 Cada una de estas dos bobinas posee una cantidad de espiras, por lo que tenemos un
 Número de Espiras del Primario (Np) y un Número de Espiras del Secundario (Ns). El
 número de espiras en ambas bobinas determina la relación directa entre las tensiones
-que tenemos entre le primario y el secundario:
+que tenemos entre le primario (Vp) y el secundario (Vs):
 
 Vp/Vs = Np/Ns
 
 Si despejamos entonces:
 
-Vs (tensión en el secundario) = Vp (tensión en el primario) * Ns/Np
+Vs = Vp * Ns/Np
 
 Esta relación determinará que tipo de transformador tenemos:
 
-Si Ns > Np Vs > Vp el transformador es elevador de tensión.
+Tipos de trasformadores en relacion a la tension:
 
-Si Ns = Np Vs = Vp el transformador es aislador.
+- Elevador: Ns > Np -> Vs > Vp 
 
-Si Ns < Np Vs < Vp el transformador es elevador reductor.
+- Aislador: Ns = Np -> Vs = Vp
+
+- Reductor: Ns < Np -> Vs < Vp -
 
 Las últimas dos configuraciones se utilizan como transformadores de tensión, como
 también para procesar audio (telefonía).
@@ -88,24 +94,25 @@ también para procesar audio (telefonía).
 Ejemplos:
 
 10:1 220V 22V
-1:10220 2200V
+1:10 220V 2200V
 
 En todos los casos donde tenemos un transformador se entra con corriente alterna y
 se sale con corriente alterna.
-La potencia en el primario y el secundario siempre será la misma, solamente se
-producen las variaciones necesarias de corriente para equilibrar ambos lados:
 
-O sea, por ejemplo en el transformador elevador:
+La **potencia en el primario y el secundario siempre será la misma, solamente se
+producen las variaciones necesarias de corriente para equilibrar ambos lados**:
 
-Si Pp = Ps
-Vp < Vs
-Ip > Is
+O sea, por ejemplo en el transformador elevador (12V 24V) 
 
-En un transformador reductor:
+Si Ps = Pp
+-> Vs > Vp
+-> Is < Ip
 
-Si Pp = Ps
-Vp > Vs
-Ip < Is
+En un transformador reductor (220V 24V)
+
+Si Ps = Pp
+-> Vs < Vp
+-> Is > Ip
 
 De esta manera no hay desbalances de potencia, ya que la corriente se adecua a la
 situación.
@@ -113,9 +120,9 @@ Con respecto a la frecuencia, esta se mantiene inalterable cuando es inducida al
 secundario, o sea tenemos la misma frecuencia en el primario como en el secundario.
 
 De esta manera, mediante el uso del transformador, tenemos el primer paso cumplido
-para comenzar el diseño de la fuente de alimentación: transformamos la tensión que
+para comenzar el diseño de la fuente de alimentación: **transformamos la tensión que
 nos viene de la red domestica de 220V CA a otro valor de CA (más pequeño, más
-grande, etc).
+grande, etc).**
 
 Otras consideraciones de los transformadores:
 
@@ -147,7 +154,7 @@ perdidas de todo el bloque.
 ### Rectificación
 
 Una vez tenemos una tensión alterna más baja gracias a la acción del transformador,
-debe existir una forma de poder transformar la tensión alterna en tensión continua. En
+debe existir una forma de poder **transformar la tensión alterna en tensión continua**. En
 esta etapa entran en juego los circuitos de rectificación. Un circuito de rectificación es
 ni más ni menos un circuito que “transforma” una tensión que alterna de positivo a
 negativo, dejando solamente una de las partes de la señal. Este trabajo lo realiza sin
@@ -162,8 +169,9 @@ Ahora analicemos el siguiente circuito que se denomina Rectificador de Media Ond
 Si aplicamos una tensión alterna, el diodo solo dejara pasar la corriente cuando la
 señal se encuentre en su semiciclo positivo:
 
-Convirtiendo de esta manera, la tensión alterna, en continua. Igualmente en este caso
-aun no tenemos una tensión constante, ya que se observan variaciones importantes de
+Convirtiendo de esta manera, la tensión alterna, en continua.  
+
+Igualmente en este caso aun no tenemos una tensión constante, ya que se observan variaciones importantes de
 tensión continua. Para mejorar aun más esto se utiliza lo que se llama Rectificador de
 Onda Completa, en el que se utilizan dos pares de diodos, y el transformador posee
 una descarga a tierra para tener una referencia, que ayude a mejorar la rectificación.
@@ -217,10 +225,10 @@ la resistencia de carga baja, el capacitor se descarga más rápido y el valor m
 
 Gracias a estas tres etapas tenemos una fuente de tensión continua y bastante
 constante, pero con un poco de rizado que hace variar el valor de tensión. A este tipo
-de fuentes se la llama Fuente de Tensión no Regulada por que modifican su tensión de
+de fuentes se la llama **Fuente de Tensión no Regulada** por que modifican su tensión de
 salida dependiendo mucho de la carga que le pongamos.
 
-### Regulación
+### Fuente de Tensión Regulación
 
 En la fuente no regulada la tensión de salida no es constante debido a que esta
 depende directamente de resistencia con la cual se carga, ya que esta afecta
@@ -238,7 +246,9 @@ por lo que puede ser dañado.
 Para poder realizar una regulación efectiva existe un componente que se llama
 Regulador de Tensión.
 
-Como vemos el regulador de tensión posee tres patas, una de entrada, una de salida y
+### Regulación
+
+El regulador de tensión posee tres patas, una de entrada, una de salida y
 otra de tierra. Los reguladores pueden tener varios valores de salida.
 
 7815 Regulador positivo (78) – Tensión de salida regulada (15)
@@ -275,23 +285,23 @@ Si establecemos por ejemplo una tensión pico de entrada de 22v, lo que estaría
 del margen de utilización, podemos llegar a calcular que tipo de transformador
 necesitamos.
 
-Como 22v es el valor pico de la señal, para calcular el valor eficaz de la salida del
-secundario del transformador solamente hacemos la cuenta:
+Como 22v es el valor pico de la señal, para **calcular el valor eficaz de la salida del
+secundario del transformador solamente hacemos la cuenta**:
 
-Vs = Vp/√2 = 22V//√2 = 15.55vef
+Vs = Vp / √2 = 22V / √2 = 15.55vef
 
 De esta manera vemos que necesitaremos un transformador que pase de 220v a
 15.55v.
 Esto significa que la relación entre espiras debe ser de 14.14:
 
-220v/15.55 = Np/Ns = 14.14
+220v / 15.55 = Np / Ns = 14.14
 
 También podemos calcular cual sería la tensión que debe tener la red eléctrica para
 llegar al límite de 30vpico en el secundario, lo que respondería a una suba de tensión:
 
-Veficaz del secundario = 30v/√2 = 21.21vef
+Vef secundario = 30v / √2 = 21.21vef
 
-Vlinea / 21.21vef = 14.14 Vlinea = 21.21vef*14.14 = 299.9 V
+Vlinea / 21.21vef = 14.14 Vlinea = 21.21vef x 14.14 = 299.9V
 
 O sea la tensión de línea debería llegar a casi 300V para que nuestro regulador
 comience a funcionar mal.
@@ -299,14 +309,14 @@ comience a funcionar mal.
 Podemos seguir pensando en cual sería la tensión mínima de línea para llegar a los 17v
 pico mínimos que necesita el regulador.
 
-Veficaz del secundario = 14v/√2 = 12.02vef
+Veficaz del secundario = 14vi / √2 = 12.02vef
 
-Vlinea / 12.02vef = 14.14 Vlinea = 12.02vef*14.14 = 169.66 V
+Vlinea / 12.02vef = 14.14 Vlinea = 12.02vef x 14.14 = 169.66V
 
 De esta manera tenemos ya armada nuestra fuente de alimentación regulada, que
 puede también llamarse Fuente d Tensión Convencional.
 
-Existe otro tipo de fuentes de tensión reguladas: las conmutadas o Switching, muy
+Existe otro tipo de fuentes de tensión reguladas: las **conmutadas o Switching**, muy
 utilizadas para alimentar computadoras, y que poseen varias ventajas con respecto a
 las fuentes convencionales.
 Estas trabajan haciendo conmutar transistores a alta frecuencia entre la zona activa y
