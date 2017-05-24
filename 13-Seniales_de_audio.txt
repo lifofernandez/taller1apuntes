@@ -85,9 +85,6 @@ son menos susceptibles a captar interferencias o ruido. Como puede observarse en
 gráfico, el principio por el cual funcionan las lineas balanceadas tiene que ver con que al
 2
 
-
-
-
 l egar las dos señales invertidas de fase a la entrada del dispositivo (por ejemplo una
 consola) se produce nuevamente la inversión de la fase de una de el as y se suman dando
 como resultado una señal del doble de amplitud, en donde (idealmente) cualquier ruido o
@@ -115,9 +112,6 @@ y eléctricas como flexibilidad, densidad del
 ”Don´t try this at home”
 blindaje, durabilidad, resistencia, capacitancia
 3
-
-
-
 
 entre conductores, inductancia entre conductores, etc.
 El blindaje es indispensable en cables que transmiten señales de nivel de
@@ -153,11 +147,7 @@ sean los trayectos que sea necesario
 recorrer.
 .
 
-
 4
-
-
-
 
 Cables blindados unipolares y dobles
 Los cables blindados de un solo conductor central se utilizan en circuitos no
@@ -191,7 +181,6 @@ bajas frecuencias debido a la inductancia del cable. Por este
 motivo no es recomendable enrol ar los cables de parlantes,
 debido a que esto aumenta su inductancia.
 
-
 Otro problema que puede repercutir, dependiendo de la __Cables no blindados
 impedancia de la carga, es el de la resistencia del cable.
 Mientras mayor sea el largo del cable y menor sea su calibre, mayor será la resistencia
@@ -201,9 +190,6 @@ ser importantes y disminuir en forma notoria el rendimiento de nuestro sistema.
 2 Esto se puede observar en la fórmula de resistencia eléctrica (R) de un conductor:
 en la cual ρ es el coeficiente de resistividad del material, l su longitud y S su área transversal.
 5
-
-
-
 
 CONECTORES Y FICHAS
 .
@@ -245,9 +231,6 @@ casos el conductor del medio (Ring).
 .
 6
 
-
-
-
 .
 TRS
 TS
@@ -261,7 +244,6 @@ principal, el anil o (Ring) l eva la señal invertida de fase y la malla
 jack no balanceado (tip/sleeve) la línea se desbalanceará, pero la
 Plug y Jack
 polaridad se mantendrá correcta.
-
 
 Uno de los problemas que presentan los plugs es que pueden producir ruido cuando
 se conectan a un sistema de sonido en funcionamiento o cuando son manipulados. Otras
@@ -288,9 +270,6 @@ b) la posibilidad de que, si se conecta mal el cable, pueda dañarse alguno de l
 dispositivos conectados; y
 c) la posibilidad de oscilación causada por diafonía (Crosstalk).
 7
-
-
-
 
 El plug TRS estándar o el TS tiene un diámetro de 1/4” (6.25 mm). Existen algunos
 conectores similares más chicos, como los mini-plugs u otros, que generalmente son de
@@ -320,7 +299,6 @@ precio más elevado en comparación con otros, y las precauciones necesarias par
 soldarlos a los cables.
 8
 
-
 Conectores RCA
 Desarrol ados por la empresa RCA para uso principal en equipos
 de radio y televisión, también se los conoce como Phono por
@@ -349,9 +327,4 @@ Apunte realizado por Martín Matus y Esteban Calcagno para uso interno exclusivo
 materia Taller de Instrumental y Equipos I de la Carrera de Composición con Medios
 Electroacústicos de la Universidad Nacional de Quilmes.
 9
-
-
-
-
-
 

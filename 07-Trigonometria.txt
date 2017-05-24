@@ -1,8 +1,6 @@
 Trigonometría
 
-
 Funciones Trigonométricas
-
 
 Para poder entender como analizar las señales eléctricas que utilizaremos en
 el análisis de circuitos con corriente alterna, debemos conocer que son las
@@ -14,33 +12,20 @@ expresión matemática, teniendo en cuenta que esta es una función periódica, 
 que cada determinada cantidad de tiempo constante, repetirá su
 comportamiento.
 
-
 El comportamiento de una onda senoidal refleja el movimiento con el pasar del
 tiempo, de un punto en un círculo, formando de esta manera la señal senoidal:
 
-
-
-
 La ecuación matemática que representa esta forma es la siguiente:
 
-
-
-
 Y = seno(x)
-
 
 Esta fórmula describe como por cada valor de X (eje horizontal) obtenemos un
 valor de Y (eje vertical) mediante la función seno.
 
-
 Pero de donde sale la función seno? De hecho, de donde salen las funciones
 trigonométricas?
 
-
 Las cosas se aclaran cuando observamos el siguiente gráfico:
-
-
-
 
 Los valores de la función seno se obtienen directamente midiendo en cada
 instante de tiempo el valor que tiene en el eje de las coordenadas (Y) del punto
@@ -55,7 +40,6 @@ en el eje X) hasta el punto D, el cual se obtiene al extender la recta que
 empieza en 0 y corta el circulo en C, cortando también a la recta de la
 tangente.
 
-
 Si hacemos girar el punto sobre el círculo a una velocidad constante se
 observa que las funciones trigonométricas son periódicas, o sea se repiten con
 el tiempo. Se observa también que la recta que se forma entre 0 y C forman un
@@ -68,42 +52,24 @@ Además cada segmento que conforma el triangulo formado por el punto 0, C y
 A, posee un determinado nombre y una relación directa con los valores de seno
 coseno y tangente:
 
-
-
-
 Tenemos tres segmentos: Cateto Adyacente, Cateto Opuesto e Hipotenusa.
 Las relaciones entres estos tres segmentos y las funciones trigonométricas
 son:
-
 
 Seno(a) = Cateto Opuesto / Hipotenusa
 Coseno(a) = Cateto Adyacente / Hipotenusa
 Tangente(a) = Cateto Opuesto / Cateto Adyacente
 
-
 Aquí el desarrollo de las tres funciones:
-
-
-
 
 FUNCIÓN SENO
 
-
-
-
 FUNCIÓN COSENO
-
-
-
 
 FUNCIÓN TANGENTE
 
-
-
-
 En las tres gráficas se observa que en el eje de las absisas se utiliza una forma
 especial de notación.
-
 
 Esto es así por que justamente lo que se esta utilizando es el sistema circular,
 que se mide en radianes. Pero que son los radianes?
@@ -114,9 +80,6 @@ contra de las agujas del reloj, empezando desde cero (eje X), y el punto va
 describiendo un arco sobre la circunferencia, llegará un momento donde el arco
 que describe este punto será igual al radio de la circunferencia.
 
-
-
-
 Este arco que se formo es, justamente, un radian. Cuando el punto llegue a
 completar el círculo, o sea llego a los 360º, la longitud del arco será total, y es
 igual a 2PI radianes. Como se sabe, no se sabe exactamente cuando mide PI,
@@ -126,38 +89,20 @@ dara que 2PI = 6.2831 radianes.
 Como puedo calcular los otros valores de los ángulos en radianes? Con una
 simple regla de tres simples:
 
-
 A = ángulo a calcular:
-
 
 A radianes = A*2PI / 360
 Ejemplo:
 
-
 Si queremos saber cuantos radianes son 90º:
-
-
-
 
 Radianes = 90º * 2PI / 360º = 1.57 radianes
 
-
-
-
 Que es nada más ni nada menos que PI/2 radianes.
-
 
 Lo que sigue es una gráfica que muestra los valores más característicos del
 sistema circular:
 
-
-
-
 Apunte realizado por Esteban Calcagno y Martín Matus para uso interno exclusivo de la
 materia Taller de Instrumental y Equipos I de la Carrera de Composición con Medios Electroacústicos de la Universidad Nacional de Quilmes.
-
-
-
-
-
 

@@ -21,9 +21,6 @@ nodo (en este caso la corriente total IT) es igual a la suma de las corrientes s
 IT = IR1 + IR2 + IR3
 1
 
-
-
-
 Segunda Ley de Kirchhoff o Ley de tensiones
 Así como la Ley de corrientes presentada anteriormente nos proporciona la relación entre los
 valores de corriente en cualquier nodo de un sistema, esta ley (que también puede encontrarse
@@ -47,7 +44,6 @@ plantearemos una ecuación de la siguiente manera: sumaremos de manera algebraic
 tensiones, asignando signo positivo a las tensiones que vayan en la misma dirección que el
 2
 
-
 recorrido que estoy siguiendo y signo negativo a las que vayan en sentido opuesto (de manera
 análoga a lo que hicimos con las corrientes cuando aplicamos la primera ley)
 En este caso, resultará que las caídas de tensión poseerán signo negativo y las elevaciones de
@@ -68,9 +64,4 @@ Apunte realizado por Martín Matus y Esteban Calcagno para uso interno de la mat
 de Instrumental y Equipos I de la Carrera de Composición con Medios Electroacústicos de la
 Universidad Nacional de Quilmes.
 3
-
-
-
-
-
 
