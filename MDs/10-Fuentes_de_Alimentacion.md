@@ -1,6 +1,6 @@
-#Fuentes de Alimentación
+# Fuentes de Alimentación
 
-##Introducción
+## Introducción
 Muchos circuitos y componentes electrónicos necesitan ser alimentados mediante una
 señal de corriente continua (por ejemplo, la mayoría de los circuitos integrados). Esto
 puede realizarse de dos formas diferentes:
@@ -19,7 +19,7 @@ La idea de esta clase es entender como se transforma una tensión alterna como l
 la red hogareña de 220 Volts CA a un valor de CC, y además como se puede obtener
 diversos valores diferentes de tensión.
 
-##Fuente de alimentación – Bloques
+## Fuente de alimentación – Bloques
 
 Las fuentes de alimentación que vamos a estudiar pueden dividirse en general en
 cuatro grandes bloques que desarrollan funciones diferentes:
@@ -29,7 +29,7 @@ Transformador - Rectificación - Filtrado - Regulación
 Repasaremos uno por uno cada uno de estos ítems para entender como funcionan las
 fuentes de tensión.
 
-###Transformador – Inducción electromagnética
+### Transformador – Inducción electromagnética
 
 Una bobina que es recorrida por una corriente variable (CA) desarrolla un campo
 magnético variable que pueden inducir fuerzas electromagneticas al atravesar otras
@@ -144,7 +144,7 @@ Estas pérdidas producen elevación de temperatura.
 Por lo que la potencia del primario se traduce como la potencia del secundario + las
 perdidas de todo el bloque.
 
-###Rectificación
+### Rectificación
 
 Una vez tenemos una tensión alterna más baja gracias a la acción del transformador,
 debe existir una forma de poder transformar la tensión alterna en tensión continua. En
@@ -200,7 +200,7 @@ nuestra fuente, y hemos llevado una señal de CA a CC. Sin embargo es evidente q
 hay que mejorar la pulsación que todavía tenemos en la señal, y esto lo hará la
 siguiente etapa, la de filtrado.
 
-###Filtrado
+### Filtrado
 
 Mediante el uso de un capacitor a la salida del rectificador podemos lograr que la
 pulsación de la señal sea minimizada.
@@ -220,7 +220,7 @@ constante, pero con un poco de rizado que hace variar el valor de tensión. A es
 de fuentes se la llama Fuente de Tensión no Regulada por que modifican su tensión de
 salida dependiendo mucho de la carga que le pongamos.
 
-###Regulación
+### Regulación
 
 En la fuente no regulada la tensión de salida no es constante debido a que esta
 depende directamente de resistencia con la cual se carga, ya que esta afecta
