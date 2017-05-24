@@ -1,15 +1,15 @@
 # Cuadripolos
 
-La definición de cuadripolo remite a un *dispositivo eléctrico genérico que posee
+La definición de cuadripolo remite a un **dispositivo eléctrico genérico que posee
 dos entradas y dos salidas, y que al inyectarle algún tipo de señal eléctrica
 realiza algún tipo de proceso, generando determinadas diferencias entre la
-señal de entrada y de salida*. O sea el cuadripolo es un dispositivo que toma
+señal de entrada y de salida**. O sea el cuadripolo es un dispositivo que toma
 una señal de entrada y nos entrega una señal de salida que es el producto de
 una transformación de algún tipo de la señal que se inyecto.
 
-A partir de la definición de cuadripolo, se puede definir que este tendrá una
+A partir de la definición de cuadripolo, se puede definir que este **tendrá una
 ganancia definidas por la relación entre su entrada y su salida, específicamente
-el cociente entre el valor de entrada y el valor de salida será la ganancia:
+el cociente entre el valor de entrada y el valor de salida será la ganancia**:
 
 Ganancia = Salida / Entrada
 
@@ -62,19 +62,16 @@ Si por ejemplo:
 
 Vi = 0.5 volts
 Vo = 0.25 volts
-
 GV = 0,25 volts / 0.5 volts = 0.5 
 La ganancia es menor a 1, por lo tanto en realidad este cuadripolo estaría atenuando la señal de entrada.
 
 Vi = 0.5 volts
 Vo = 1 volts
-
-GV = 1 volts / 0.5 volts = 2 i
+GV = 1 volts / 0.5 volts = 2
 La ganancia es mayor a 1, por lo tanto la señal esta siendo amplificada.
 
 Vi = 0.5 volts
 Vo = 0.5 volts
-
 Gv = 0.5 volts / 0.5 volts 
 La ganancia es igual a 1, por lo tanto la ganancia es unitaria.
 
