@@ -347,11 +347,13 @@ dando lugar a la formación de óxido que degradará la calidad de audio. Para e
 problema pueden utilizarse conectores bañados en oro. Otra recomendación es girar
 periódicamente las fichas en los conectores realizando una limpieza del material.
 
+---
 > Para el presente apunte fueron seleccionados y traducidos fragmentos del libro :
 > Davis, G. y Jones, R. (1989), The Sound Reinforcement Handbook. Milwaukee: Hal
 > Leonard Corporation.
 
----
 Apunte realizado por Martín Matus y Esteban Calcagno para uso interno exclusivo de la
 materia Taller de Instrumental y Equipos I de la Carrera de Composición con Medios
 Electroacústicos de la Universidad Nacional de Quilmes.
+
+
