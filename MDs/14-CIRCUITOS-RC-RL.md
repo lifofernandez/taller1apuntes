@@ -1,4 +1,4 @@
-# CIRCUITOS Resistivos Capasitivos (RC) y Resistivos Inductivos (RL) en Corriente Alterna
+# Circuitos Resistivos Capasitivos y Resistivos Inductivos en Corriente Alterna
 
 ## Circuitos R-C (Resistivos Capasitivos) en CA
 Imaginemos que tenemos el siguiente circuito compuesto por una resistencia y un
