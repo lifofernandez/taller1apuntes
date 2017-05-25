@@ -40,15 +40,15 @@ manera. De aquí podemos deducir el triangulo de impedancias:
 Desde donde podemos obtener Z.
 Gracias al teorema de Pitágoras podemos obtener la magnitud y la fase de Z de la siguiente manera:
 
-##### Fase de la Impedancia 
-###### Angulo Tangente = opuesto / adyasente
+Fase de la Impedancia 
 ```
 tan = Xc / R
+Angulo Tangente = Cateto Opuesto / Cateto Adyasente
 ```
-##### Magnitud de la Impedancia
-###### Hipotenusa = Raiz Cuadrada ( opuesto^ + adyasente^ )
+Magnitud de la Impedancia
 ```
 Z = sqr( R^ + Xc^ )
+Hipotenusa = Raiz Cuadrada ( Cateto Opuesto al cuadrado + Cateto Adyasente al cuadrado )
 ```
 
 
@@ -68,12 +68,12 @@ triangulo de impedancias, para poder calcular Z:
 Y nuevamente por Pitágoras obtenemos la magnitud y el ángulo de Z:
 
 ##### Fase de la Impedancia 
-###### Angulo Tangente = opuesto / adyasente
 ```
+Angulo Tangente = Cateto Opuesto / Cateto Adyasente
 tan = Xl / R
 ```
 ##### Magnitud de la Impedancia
-###### Hipotenusa = Raiz Cuadrada ( opuesto^ + adyasente^ )
 ```
 Z = sqr( R^ + Xl^ )
+Hipotenusa = Raiz Cuadrada ( Cateto Opuesto al cuadrado + Cateto Adyasente al cuadrado )
 ```
