@@ -22,8 +22,8 @@ Esta función establece que el número N es igual a una base b elevada a un
 número x.
 Por ejemplo:
 ```
-100  = 10 ^ 2
- 27  =  3 ^ 3
+ 100 = 10 ^ 2
+  27 =  3 ^ 3
 54.6 =  e ^ e ( donde e = 2.7183 )
 ```
 Ahora supongamos que queremos saber cual es el exponente x al cual hay que
