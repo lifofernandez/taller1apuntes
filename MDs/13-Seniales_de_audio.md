@@ -24,10 +24,10 @@ a su correcto uso, tiene que ver con los niveles de tensión que posean las señ
 audio con las que trabajemos. Es posible establecer una clasificación general de las
 señales según su nivel de tensión nominal de la siguiente manera:
 ```
-TIPO DE SEÑAL				NIVEL NOMINAL
+TIPO DE SEÑAL		NIVEL NOMINAL
 
-Nivel de potencia		Mayor a +30 dBu
-Nivel de línea			Entre -20 dBu y +30 dBu
+Nivel de potencia	Mayor a +30 dBu
+Nivel de línea		Entre -20 dBu y +30 dBu
 Nivel de micrófono	Menor a -20 dBu
 ```
 Con valor nominal nos referimos a que se toma como promedio este valor pudiendo las
