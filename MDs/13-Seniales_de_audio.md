@@ -1,5 +1,4 @@
-# SEÑALES DE AUDIO,
-## CABLES Y CONEXIONES
+# SEÑALES DE AUDIO, CABLES Y CONEXIONES
 Cuando hablamos de señales de audio estamos haciendo referencia a señales de
 tensión variables en el tiempo, que pueden ser convertidas por transductores en base a
 señales acústicas, o que pueden ser producidas por dispositivos específicos (por ejemplo,
