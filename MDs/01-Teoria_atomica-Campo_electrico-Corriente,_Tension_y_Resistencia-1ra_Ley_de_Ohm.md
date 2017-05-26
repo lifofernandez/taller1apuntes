@@ -1,26 +1,29 @@
 # Teoría atómica – Campo eléctrico – Corriente, Tensión y Resistencia – 1ra. Ley de Ohm
 
-## Introducción:
+## Introducción
 
 Día a día nos encontramos con miles de dispositivos que funcionan gracias a lo
 que se denomina electricidad. La electricidad no es ni más ni menos que un
 fenómeno físico que se desarrolla a nivel molecular.
+
 En nuestro caso es de suma importancia el uso de la electricidad, ya que
 alrededor de esta se sientan las bases para la electrónica, una de las
 disciplinas más importantes para el desarrollo de hardware específico para el
 procesamiento de señales de audio.
+
 Consolas, fuentes, instrumentos electrónicos, PCś, y muchos dispositivos de
 uso cotidiano para el músico electroacústico funcionan con electricidad.
 Es necesario entender las leyes de la electricidad y la electrónica para llegar a
 entender como funcionan estos dispositivos, aprender a usarlos correctamente,
 repararlos y/o, tal vez, diseñarlos.
 
-## Preliminares:
+## Preliminares
 
 La electricidad ha sido estudiada desde los griegos. El experimento quizás más
 revelador en esa época fue el de frotar un trozo de ámbar (un polímero
 derivado de resina vegetal, algo muy parecido al plástico) y observar como este
 atraía pedacitos de paja.
+
 Además del desarrollo de estos experimentos, los griegos dieron cuenta de que
 también había piedras (todavía en esa época no eran considerados metales)
 que atraían pequeños trozos de hierro. No era otra cosa que lo que hoy en día
@@ -39,6 +42,7 @@ teoría atómica molecular, que afirma que la materia (todo lo que nos rodea)
 esta conformada por elementos mas pequeños, los cuales también están
 conformados por elementos aun más pequeño, hasta llegar al átomo y su
 estructura.
+
 Los átomos están conformados a su vez por combinaciones de tres elementos:
 Electrones, Protones y Neutrones.
 Si bien hay evidencia de que existen partículas más pequeñas que estas, nos
@@ -64,7 +68,6 @@ las partículas, para entender la generación de electricidad:
 - Un átomo debe poseer la misma cantidad de protones que electrones.
 - Los electrones orbitan (giran) alrededor del núcleo, formando capas
 concéntricas. La primera capa, la que esta más cerca del núcleo, puede
-
 albergar un máximo de dos electrones. La segunda, un máximo de 8
 electrones, la tercera 18, y la cuarta, 32 (2n²).
 
@@ -85,6 +88,7 @@ Gracias a este comportamiento básico de las partículas subatómicas, los
 electrones sufrirán una fuerza de atracción muy grande en las capas más
 cercanas al núcleo, mientras que en las capas más lejanas, esta fuerza será
 menor.
+
 Gracias a este fenómeno, es muy sencillo que los átomos que tengan
 muchas capas, pierdan electrones más lejanos. Además es más fácil que
 un átomo pierda electrones de capas incompletas, especialmente si tienen
@@ -94,6 +98,7 @@ determinados casos los electrones de un átomo pueden pasar a las
 orbitas de otros átomos generando una movilización de electrones bajo
 ciertas condiciones esenciales. Esta propiedad básica molecular, es el
 principio de la generación de electricidad.
+
 Los materiales que manejamos en la vida cotidiana (acero, madera, plástico,
 tela) poseen configuraciones en sus partículas que permiten o no esta
 circulación de electrones. También se sabe que el cobre es uno de los
@@ -118,6 +123,7 @@ con estas características, los metales, el agua, etc.). Tal es la cantidad de
 electrones libres que existen, y tal es la aleatoriedad de su movimiento, que en
 estado de reposo, o sea sin aplicación de fuerzas externas, en realidad no
 existe movimiento de electrones.
+
 Para entender aun más esto, se debe entender que los electrones colisionan
 entre sí y son atraídos y repelidos, y esto hace que todo se encuentre en
 estado de equilibrio, o sea en reposo.
@@ -137,6 +143,7 @@ Ahora le conectamos los cables a una lámpara, y a una batería.
 Para simplificar, diremos que la batería, mediante un procedimiento químico,
 cuenta con un terminal negativo y uno positivo (carga positiva, carga negativa,
 los electrones viajan desde - a +).
+
 Entonces el circuito simple que armamos es el siguiente:
 
 Lo que sucederá aquí, es lo que observamos todos los días cuando apretamos
@@ -219,6 +226,7 @@ podrá realizar
 aun más trabajo. Existe una obvia diferencia entre la energía del peso en
 reposo (referencia), y la energía del peso elevado. A esto se lo denomina
 “diferencia de potencial”.
+
 Este mismo razonamiento se aplica a lo que pasa en la batería del ejemplo
 anterior.
 
@@ -233,6 +241,7 @@ Podemos entender este fenómeno también como “altura eléctrica”. Es lógic
 pensar que para obtener esta diferencia de potencial químicamente se realiza
 también un trabajo, y que a mayor energía potencial se desea el trabaja es aun
 mayor.
+
 Baterías que puedan entregar más corriente, deberán realizar un trabajo más
 grande.
 
@@ -301,8 +310,10 @@ siguiente manera:
 Esta ecuación es la tan conocida Ley de Ohm, la cual revela que si por
 ejemplo, tenemos una resistencia fija y aplicamos mayor voltaje, la corriente
 aumentará.
+
 La corriente es proporcional al voltaje aplicado e inversamente proporcional a la
 resistencia.
+
 La letra E simboliza la tensión-diferencia de potencial-voltaje, la I representa la
 corriente eléctrica y la R, representa la resistencia.
 
