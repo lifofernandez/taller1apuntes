@@ -118,7 +118,9 @@ electrón (electrón 19), que además es atraído muy poco por su núcleo. Esto
 hace que el electrón se sienta atraído por otros núcleos cercanos y se
 convierta en un “electrón libre”. O sea que puede “moverse” entre átomo y
 átomo.
+
 ![Alt Text](URL "Title Text")
+
 Átomo de cobre: 29 protones, 29 electrones
 
 En un centímetro cúbico de cobre se pueden encontrar millones de
@@ -152,7 +154,9 @@ cuenta con un terminal negativo y uno positivo (carga positiva, carga negativa,
 los electrones viajan desde - a +).
 
 Entonces el circuito simple que armamos es el siguiente:
+
 ![Alt Text](URL "Title Text")
+
 Lo que sucederá aquí, es lo que observamos todos los días cuando apretamos
 el interruptor de la luz: la lámpara se enciende.
 
@@ -211,7 +215,9 @@ de Intensidad de corriente).
 
 Para profundizar aun más en el estudio de la corriente eléctrica, volvamos al
 circuito anterior:
+
 ![Alt Text](URL "Title Text")
+
 Si observamos bien, se ven marcadas dos direcciones de corriente: la de los
 electrones, que van desde una carga negativa (-) a una positiva (-). Y la
 dirección convencional de la corriente, que va desde el positivo (+) hacia el
