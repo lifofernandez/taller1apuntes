@@ -1,7 +1,5 @@
-Teoría atómica – Campo eléctrico – Corriente, Tensión y Resistencia –
-1ra. Ley de Ohm
-
-Introducción:
+# Teoría atómica – Campo eléctrico – Corriente, Tensión y Resistencia – 1ra. Ley de Ohm
+## Introducción:
 
 Día a día nos encontramos con miles de dispositivos que funcionan gracias a lo
 que se denomina electricidad. La electricidad no es ni más ni menos que un
@@ -16,7 +14,7 @@ Es necesario entender las leyes de la electricidad y la electrónica para llegar
 entender como funcionan estos dispositivos, aprender a usarlos correctamente,
 repararlos y/o, tal vez, diseñarlos.
 
-Preliminares:
+## Preliminares:
 
 La electricidad ha sido estudiada desde los griegos. El experimento quizás más
 revelador en esa época fue el de frotar un trozo de ámbar (un polímero
@@ -33,7 +31,7 @@ Heaviside, Lorentz, Hertz, Marconi y Einstein. Si bien algunas de las teorías d
 estos científicos serán utilizadas durante esta cursada, no se revisara en
 profundidad esta cronología.
 
-Teoría Atómica
+## Teoría Atómica
 
 Para entender de que se trata la electricidad hay que entender un poco la
 teoría atómica molecular, que afirma que la materia (todo lo que nos rodea)
@@ -75,7 +73,7 @@ figura se observa que los electrones van cubriendo las capas concéntricas, y
 en la cuarta capa queda solamente un electrón solo, ya que la tercera capa se
 encuentra completa:
 
-Campo eléctrico
+## Campo eléctrico
 
 Mediante experimentos, se descubrió que las cargas distintas se atraen, y
 las cargas iguales se repelen. En este caso, dos electrones, o dos protones
@@ -109,7 +107,7 @@ hace que el electrón se sienta atraído por otros núcleos cercanos y se
 convierta en un “electrón libre”. O sea que puede “moverse” entre átomo y
 átomo.
 
-Átomo de cobre: 29 protones, 29 electrones
+## Átomo de cobre: 29 protones, 29 electrones
 
 En un centímetro cúbico de cobre se pueden encontrar millones de
 electrones libres. Solamente a temperatura ambiente estos electrones viajan
@@ -143,7 +141,7 @@ Entonces el circuito simple que armamos es el siguiente:
 Lo que sucederá aquí, es lo que observamos todos los días cuando apretamos
 el interruptor de la luz: la lámpara se enciende.
 
-Simplificando:
+## Simplificando:
 
 Cuando conectamos estos elementos de esta manera, los electrones viajan de
 la terminal negativa de la batería hacia la terminal positiva de la batería. La
@@ -157,7 +155,7 @@ justamente) hacen que este se caliente y comience a despedir luz.
 Con esta descripción comenzaremos a entender el concepto de corriente
 eléctrica.
 
-Corriente eléctrica
+## Corriente eléctrica
 
 El flujo de estos millones de electrones genera lo que se llama “flujo de
 carga” o “corriente” . Esto se mide como la cantidad de electrones que
@@ -222,6 +220,7 @@ reposo (referencia), y la energía del peso elevado. A esto se lo denomina
 “diferencia de potencial”.
 Este mismo razonamiento se aplica a lo que pasa en la batería del ejemplo
 anterior.
+
 Gracias a una acción química la batería produce y mantiene una
 acumulación de
 carga negativa (electrones) en uno de sus terminales (-), y una falta de
@@ -254,7 +253,7 @@ Una vez establecidos tanto la definición de corriente, como la de tensión-
 diferencia de potencial-voltaje, todavía se necesita explicar un elemento más,
 imprescindible para el trabajo con circuitos eléctricos: la resistencia.
 
-Resistencia
+## Resistencia
 
 Un tercer fenómeno que debemos entender para poder comenzar a analizar
 circuitos eléctricos es el de “resistencia al paso de la corriente”.
@@ -306,6 +305,7 @@ resistencia.
 La letra E simboliza la tensión-diferencia de potencial-voltaje, la I representa la
 corriente eléctrica y la R, representa la resistencia.
 
+---
 Apunte realizado por Martín Matus y Esteban Calcagno para uso
 interno exclusivo de la materia Taller de Instrumental y Equipos I de
 la Carrera de Composición con Medios Electroacústicos de la Universidad
