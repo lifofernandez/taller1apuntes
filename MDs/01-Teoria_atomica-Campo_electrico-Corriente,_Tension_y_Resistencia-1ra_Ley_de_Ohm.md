@@ -159,7 +159,7 @@ Entonces el circuito simple que armamos es el siguiente:
 Lo que sucederá aquí, es lo que observamos todos los días cuando apretamos
 el interruptor de la luz: la lámpara se enciende.
 
-## Simplificando:
+### Simplificando:
 
 Cuando conectamos estos elementos de esta manera, los electrones viajan de
 la terminal negativa de la batería hacia la terminal positiva de la batería. La
