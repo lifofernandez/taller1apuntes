@@ -53,6 +53,7 @@ A nivel microscópico, el átomo esta conformado por estas tres sub partículas,
 que conforman una determinada relación entre ellas. Por ejemplo, **el átomo
 más simple es el de hidrogeno, que solo tiene dos elementos, un protón y
 un electrón**:
+
 ![Alt Text](URL "Title Text")
 
 Como se observa en la figura, el protón es el núcleo de este átomo. Los
@@ -62,6 +63,7 @@ En todos los demás elementos químicos (los conocidos hasta ahora) existen
 también neutrones en sus núcleos, los cuales no cuentan con carga eléctrica.
 Por ejemplo, un átomo de Helio, cuenta con dos protones, dos neutrones y dos
 electrones:
+
 ![Alt Text](URL "Title Text")
 
 Se deben entender, entonces, varios fenómenos y características básicas de
@@ -78,6 +80,7 @@ primera capa y el siguiente se alojará en la segunda capa. En la siguiente
 figura se observa que los electrones van cubriendo las capas concéntricas, y
 en la cuarta capa queda solamente un electrón solo, ya que la tercera capa se
 encuentra completa:
+
 ![Alt Text](URL "Title Text")
 
 ## Campo eléctrico
