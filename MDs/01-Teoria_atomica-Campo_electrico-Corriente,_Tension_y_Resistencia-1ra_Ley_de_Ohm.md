@@ -1,5 +1,6 @@
 # Teoría atómica – Campo eléctrico – Corriente, Tensión y Resistencia – 1ra. Ley de Ohm
-## Introducción:
+
+## Introducción:
 
 Día a día nos encontramos con miles de dispositivos que funcionan gracias a lo
 que se denomina electricidad. La electricidad no es ni más ni menos que un
