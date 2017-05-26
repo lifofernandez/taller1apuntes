@@ -53,7 +53,6 @@ A nivel microscópico, el átomo esta conformado por estas tres sub partículas,
 que conforman una determinada relación entre ellas. Por ejemplo, **el átomo
 más simple es el de hidrogeno, que solo tiene dos elementos, un protón y
 un electrón**:
-
 ![Alt Text](URL "Title Text")
 
 Como se observa en la figura, el protón es el núcleo de este átomo. Los
@@ -63,7 +62,6 @@ En todos los demás elementos químicos (los conocidos hasta ahora) existen
 también neutrones en sus núcleos, los cuales no cuentan con carga eléctrica.
 Por ejemplo, un átomo de Helio, cuenta con dos protones, dos neutrones y dos
 electrones:
-
 ![Alt Text](URL "Title Text")
 
 Se deben entender, entonces, varios fenómenos y características básicas de
@@ -80,7 +78,6 @@ primera capa y el siguiente se alojará en la segunda capa. En la siguiente
 figura se observa que los electrones van cubriendo las capas concéntricas, y
 en la cuarta capa queda solamente un electrón solo, ya que la tercera capa se
 encuentra completa:
-
 ![Alt Text](URL "Title Text")
 
 ## Campo eléctrico
@@ -118,10 +115,8 @@ electrón (electrón 19), que además es atraído muy poco por su núcleo. Esto
 hace que el electrón se sienta atraído por otros núcleos cercanos y se
 convierta en un “electrón libre”. O sea que puede “moverse” entre átomo y
 átomo.
-
-*falta dibujo*
-
-## Átomo de cobre: 29 protones, 29 electrones
+![Alt Text](URL "Title Text")
+Átomo de cobre: 29 protones, 29 electrones
 
 En un centímetro cúbico de cobre se pueden encontrar millones de
 electrones libres. Solamente a temperatura ambiente estos electrones viajan
@@ -154,9 +149,7 @@ cuenta con un terminal negativo y uno positivo (carga positiva, carga negativa,
 los electrones viajan desde - a +).
 
 Entonces el circuito simple que armamos es el siguiente:
-
 ![Alt Text](URL "Title Text")
-
 Lo que sucederá aquí, es lo que observamos todos los días cuando apretamos
 el interruptor de la luz: la lámpara se enciende.
 
@@ -197,11 +190,16 @@ diferentes niveles de paso de electrones, se definió como 1 Coulomb (C) como
 la carga total asociada a estos 6,242 X 10 a la 18 electrones.
 Se dedujo que la carga que posee 1 solo electrón puede calcularse de la
 siguiente manera:
+```
+*Formula*
+```
 
 Como se observa la carga esta expresada en Coulombs. De esta manera se
 puede relacionar la carga de los electrones a una magnitud de corriente, en un
 determinado tiempo, que se observa claramente en la siguiente ecuación:
-
+```
+*Formula*
+```
 Un valor de corriente (I) esta relacionado directamente a un valor de carga (Q)
 sobre una unidad temporal (t). A simple vista se puede observar que a distintos
 intervalos de tiempo, mientras mayor sea la carga, mayor será la corriente
@@ -210,7 +208,7 @@ de Intensidad de corriente).
 
 Para profundizar aun más en el estudio de la corriente eléctrica, volvamos al
 circuito anterior:
-
+![Alt Text](URL "Title Text")
 Si observamos bien, se ven marcadas dos direcciones de corriente: la de los
 electrones, que van desde una carga negativa (-) a una positiva (-). Y la
 dirección convencional de la corriente, que va desde el positivo (+) hacia el
@@ -248,6 +246,7 @@ Gracias a una acción química la batería produce y mantiene una
 acumulación de
 carga negativa (electrones) en uno de sus terminales (-), y una falta de
 electrones en la otra terminal (+).
+
 Esto produce directamente una “diferencia de potencial” entre ambas
 terminales. Al cerrar el circuito con los cables y el foco, los terminales poseen
 suficiente energía potencial para mover los electrones a la terminal positiva.
@@ -309,14 +308,20 @@ Existe una manera en que la corriente, el voltaje y la resistencia se
 relacionan entre
 si. Y tiene que ver directamente con las ideas de Efecto, Causa y Oposición
 respectivamente:
-
+```
+*Formula*
+*Formula*
+```
 En nuestro caso, el efecto a lograr sería la corriente de electrones, la causa por
 la cual esto sucede es el voltaje, y la oposición al paso de la corriente de
 electrones es la resistencia. Así, nuestra ecuación inicial (que dicho sea de
 paso es una ecuación que representa muchas de las cosas que pasan en
 nuestro mundo físico), expresada en función de la electricidad queda de la
 siguiente manera:
-
+```
+*Formula*
+*Formula*
+```
 Esta ecuación es la tan conocida Ley de Ohm, la cual revela que si por
 ejemplo, tenemos una resistencia fija y aplicamos mayor voltaje, la corriente
 aumentará.
