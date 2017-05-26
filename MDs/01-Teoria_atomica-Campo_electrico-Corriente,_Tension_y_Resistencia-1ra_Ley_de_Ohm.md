@@ -50,9 +50,11 @@ quedaremos en este nivel de profundidad, donde se describe las sub partículas
 que componen al átomo.
 
 A nivel microscópico, el átomo esta conformado por estas tres sub partículas,
-que conforman una determinada relación entre ellas. Por ejemplo, el átomo
+que conforman una determinada relación entre ellas. Por ejemplo, **el átomo
 más simple es el de hidrogeno, que solo tiene dos elementos, un protón y
-un electrón:
+un electrón**:
+
+*falta dibujo*
 
 Como se observa en la figura, el protón es el núcleo de este átomo. Los
 protones siempre tienen carga positiva (+). El electrón, gira alrededor de el
@@ -61,6 +63,8 @@ En todos los demás elementos químicos (los conocidos hasta ahora) existen
 también neutrones en sus núcleos, los cuales no cuentan con carga eléctrica.
 Por ejemplo, un átomo de Helio, cuenta con dos protones, dos neutrones y dos
 electrones:
+
+*falta dibujo*
 
 Se deben entender, entonces, varios fenómenos y características básicas de
 las partículas, para entender la generación de electricidad:
@@ -76,6 +80,8 @@ primera capa y el siguiente se alojará en la segunda capa. En la siguiente
 figura se observa que los electrones van cubriendo las capas concéntricas, y
 en la cuarta capa queda solamente un electrón solo, ya que la tercera capa se
 encuentra completa:
+
+*falta dibujo*
 
 ## Campo eléctrico
 
@@ -113,6 +119,8 @@ hace que el electrón se sienta atraído por otros núcleos cercanos y se
 convierta en un “electrón libre”. O sea que puede “moverse” entre átomo y
 átomo.
 
+*falta dibujo*
+
 ## Átomo de cobre: 29 protones, 29 electrones
 
 En un centímetro cúbico de cobre se pueden encontrar millones de
@@ -128,12 +136,15 @@ Para entender aun más esto, se debe entender que los electrones colisionan
 entre sí y son atraídos y repelidos, y esto hace que todo se encuentre en
 estado de equilibrio, o sea en reposo.
 
-Nota: Materiales conductores o aislantes
+---
+**Nota: Materiales conductores o aislantes**
+*
 Cada uno de los materiales y elementos que se observan en la vida cotidiana
 posee una configuración atómica que determina si se trata de un material que
 permite el libre movimiento de los electrones (materiales conductores:
 metales, agua, etc.) o, en cambio, se comporta como una barrera para esta
 circulación (materiales no conductores, o aislantes: vidrio, madera, etc).
+*
 
 Supongamos ahora que tenemos dos cables de cobre de unos cuantos
 centímetros de largo, que como vimos en temperatura ambiente y sin ninguna
@@ -146,6 +157,8 @@ los electrones viajan desde - a +).
 
 Entonces el circuito simple que armamos es el siguiente:
 
+![Alt Text](URL "Title Text")
+
 Lo que sucederá aquí, es lo que observamos todos los días cuando apretamos
 el interruptor de la luz: la lámpara se enciende.
 
@@ -156,6 +169,7 @@ la terminal negativa de la batería hacia la terminal positiva de la batería. L
 terminal negativa de la batería es un generador de electrones que van
 desplazando a los electrones libres de los alambres de cobre (o sea toman su
 lugar en la estructura atómica).
+
 La batería se encarga de mantener este flujo constante, y los electrones que
 pasan por millones por el filamento de la lámpara (imagínense billones de
 electrones tratando de pasar por un cablecito muy fino, que es el filamento
@@ -175,9 +189,11 @@ usa. (Por ej: 12 volts, 3 Amper, de un transformador).
 Para simplificar, se trata ni más ni menos que de una gran cantidad de
 electrones pasando en un instante de tiempo a través de una sección de
 cable.
+
 Unos pocos electrones realizando esto mismo es despreciable, en cuanto a
 corriente, por eso se necesitan millones o billones de electrones realizando la
 misma acción, fluir por un elemento conductor.
+
 Para poder determinar valores intermedios que permitan comparaciones entre
 diferentes niveles de paso de electrones, se definió como 1 Coulomb (C) como
 la carga total asociada a estos 6,242 X 10 a la 18 electrones.
