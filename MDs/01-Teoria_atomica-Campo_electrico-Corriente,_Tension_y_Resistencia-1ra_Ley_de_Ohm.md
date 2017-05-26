@@ -54,7 +54,7 @@ que conforman una determinada relación entre ellas. Por ejemplo, **el átomo
 más simple es el de hidrogeno, que solo tiene dos elementos, un protón y
 un electrón**:
 
-*falta dibujo*
+![Alt Text](URL "Title Text")
 
 Como se observa en la figura, el protón es el núcleo de este átomo. Los
 protones siempre tienen carga positiva (+). El electrón, gira alrededor de el
@@ -64,7 +64,7 @@ también neutrones en sus núcleos, los cuales no cuentan con carga eléctrica.
 Por ejemplo, un átomo de Helio, cuenta con dos protones, dos neutrones y dos
 electrones:
 
-*falta dibujo*
+![Alt Text](URL "Title Text")
 
 Se deben entender, entonces, varios fenómenos y características básicas de
 las partículas, para entender la generación de electricidad:
@@ -81,7 +81,7 @@ figura se observa que los electrones van cubriendo las capas concéntricas, y
 en la cuarta capa queda solamente un electrón solo, ya que la tercera capa se
 encuentra completa:
 
-*falta dibujo*
+![Alt Text](URL "Title Text")
 
 ## Campo eléctrico
 
@@ -109,8 +109,8 @@ Los materiales que manejamos en la vida cotidiana (acero, madera, plástico,
 tela) poseen configuraciones en sus partículas que permiten o no esta
 circulación de electrones. También se sabe que el cobre es uno de los
 materiales preferidos a la hora de construir cables conductores de electricidad.
-Pero por que se elije específicamente el cobre como un buen transportador de
 
+Pero por que se elije específicamente el cobre como un buen transportador de
 electricidad? Todo se explica si se analiza la estructura atómica del cobre. El
 átomo de cobre cuenta siempre con un electrón más de los que necesita
 para completar cuatro capas. Entonces la capa exterior cuenta con 1 solo
@@ -138,13 +138,11 @@ estado de equilibrio, o sea en reposo.
 
 ---
 **Nota: Materiales conductores o aislantes**
-*
-Cada uno de los materiales y elementos que se observan en la vida cotidiana
+*Cada uno de los materiales y elementos que se observan en la vida cotidiana
 posee una configuración atómica que determina si se trata de un material que
 permite el libre movimiento de los electrones (materiales conductores:
 metales, agua, etc.) o, en cambio, se comporta como una barrera para esta
-circulación (materiales no conductores, o aislantes: vidrio, madera, etc).
-*
+circulación (materiales no conductores, o aislantes: vidrio, madera, etc).*
 
 Supongamos ahora que tenemos dos cables de cobre de unos cuantos
 centímetros de largo, que como vimos en temperatura ambiente y sin ninguna
@@ -298,18 +296,14 @@ los materiales al paso de la corriente eléctrica.
 La resistencia al paso de corriente de un material depende de varios factores:
 
 - Tipo de material
-
 - Longitud (mayor longitud mayor resistencia)
-
 - Área transversal (menor área mayor resistencia)
-
 - Temperatura (mayor temperatura mayor resistencia)
 
 La unidad de medida de la resistencia de un material es el Ohm, y se simboliza
-con la
-letra griega Omega (Ω).
+con la letra griega Omega (Ω).
 
-Primera Ley de Ohm
+## Primera Ley de Ohm
 
 Existe una manera en que la corriente, el voltaje y la resistencia se
 relacionan entre
