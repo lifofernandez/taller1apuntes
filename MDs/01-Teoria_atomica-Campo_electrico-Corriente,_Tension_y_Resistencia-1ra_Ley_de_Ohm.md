@@ -136,7 +136,7 @@ Para entender aun más esto, se debe entender que los electrones colisionan
 entre sí y son atraídos y repelidos, y esto hace que todo se encuentre en
 estado de equilibrio, o sea en reposo.
 
-##### Nota: Materiales conductores o aislantes
+**Nota: Materiales conductores o aislantes**   
 *Cada uno de los materiales y elementos que se observan en la vida cotidiana
 posee una configuración atómica que determina si se trata de un material que
 permite el libre movimiento de los electrones (materiales conductores:
