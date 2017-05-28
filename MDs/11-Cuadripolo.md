@@ -1,4 +1,4 @@
-# Cuadripolos
+# Cuadripolos ( y decibeles)
 
 La definición de cuadripolo remite a un **dispositivo eléctrico genérico que posee
 dos entradas y dos salidas, y que al inyectarle algún tipo de señal eléctrica
