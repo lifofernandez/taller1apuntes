@@ -25,7 +25,7 @@ Las fuentes de alimentación que vamos a estudiar pueden dividirse en general en
 cuatro grandes bloques que desarrollan funciones diferentes:
 
 - Transformador
-- Rectificacióni
+- Rectificación
 - Filtrado
 - Regulación
 
