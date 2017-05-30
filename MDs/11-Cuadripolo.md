@@ -106,7 +106,9 @@ Esta ecuación es una de las más importantes utilizadas a la hora de comparar
 valores de potencia. El decibel se simboliza con las letras dB.
 Analizando esta ecuación notamos que si por ejemplo, la potencia de salida
 (P2) es 2 veces la de entrada, obtendremos un valor de 3 decibeles:
-
+```
+dB = 10 . log10( 2 ) = 3
+```
 Para un sistema determinado de audio, un incremento de 3dB en la salida,
 requerirá que el nivel de potencia se duplique. Si tenemos una señal y la
 ganancia que se obtiene luego de pasarla por un cuadripolo es 1dB de potencia
@@ -290,7 +292,7 @@ Para terminar de entender como se proyecta esto en el manejo de consolas y
 equipos de audio, se presentará una gráfica de rango dinámico y valores
 usuales a usar con la consola de mezcla:
 
-Cuadripolos en cascada
+### Cuadripolos en cascada
 
 En el caso de tener varios dispositivos cuadripolos en cascada, que será la
 forma más común en que se conectaran los equipos de audio:
