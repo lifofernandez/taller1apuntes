@@ -76,7 +76,8 @@ cadena de audio (por ejemplo, diversos equipos de reproducción y grabación de 
 procesadores de audio externos), algunos fabricantes proveen salidas con los dos niveles
 (+4 dBu y -10 dBV). Por otra parte, algunas compañías ofrecen interfaces activas que
 convierten los niveles de señal entre estos valores.
-Conexiones balanceadas y no balanceadas
+
+### Conexiones balanceadas y no balanceadas
 
 Las conexiones no balanceadas utilizan dos conductores, uno con un potencial de
 tierra o masa y el otro que l eva la señal. Los equipos que operan a -10 dBV
