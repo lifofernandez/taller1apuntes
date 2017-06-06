@@ -27,8 +27,7 @@ nodo (en este caso la corriente total IT) es igual a la suma de las corrientes s
 ´´´
 IT = IR1 + IR2 + IR3
 ´´´
-## Segunda Ley de Kirchhoff o Ley de tensiones
-
+## Segunda Ley de Kirchhoff o Ley de tensiones
 Así como la Ley de corrientes presentada anteriormente nos proporciona la relación entre los
 valores de corriente en cualquier nodo de un sistema, esta ley (que también puede encontrarse
 con el nombre de Ley de mal as o Ley de voltajes) postula que la suma algebraica de las
