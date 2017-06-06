@@ -1,5 +1,5 @@
 # LEYES DE KIRCHHOFF
-## Primera Ley de Kirchhoff o Ley de corrientes
+## Primera Ley de Kirchhoff o Ley de corrientes
 La Ley de corrientes nos proporciona la relación entre los valores de corriente existentes en los
 nodos de un sistema. Llamaremos nodo a cualquier unión de al menos dos trayectorias que
 conducen corriente en un circuito.
