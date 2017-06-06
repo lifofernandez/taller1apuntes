@@ -1,4 +1,4 @@
-POTENCIA ELÉCTRICA
+# POTENCIA ELÉCTRICA
 
 El siguiente es un circuito esquemático que corresponde a una linterna, siendo la lámpara un tipo
 particular de resistencia y las pilas de la linterna una fuente de tensión continua
@@ -15,50 +15,47 @@ forma a otra) puede efectuarse en una cantidad específica de tiempo, o lo que e
 tasa de trabajo realizado. Como la energía convertida se mide en joules (J) y el tiempo en
 segundos (s), la potencia se mide en joules/segundo (J/s). La unidad eléctrica de medición para la
 potencia es el watt (W)1, es decir:
-
+```
 1 watt (W) = 1 joule/segundo (J/s)
-
+```
 o expresado en forma de ecuación:
-P = W
-t
-
-donde W es la energía, medida en Joules, y t el tiempo en segundos
+```
+P = W/t
+```
+Donde W es la energía, medida en Joules, y t el tiempo en segundos
 
 Para calcular la potencia consumida por la lámpara del circuito inicial se utiliza la siguiente fórmula:
-
+```
 P = V . I
-
+```
 Esta fórmula es la que utilizaremos para cálculos de potencia con cualquier tipo de resistor (no
 solo en el caso de la lámpara). Por ejemplo, si aplicáramos una tensión de 15V a un resistor de 1,2
 KΩ se obtiene una corriente circulante de 12,5 mA. Para calcular la potencia disipada por el
 resistor aplicamos
+```
 P = V . I = 15 V . 12,5 mA = 0,1875 watts
-
-1
+```
 Existe otra unidad para medir la potencia llamada caballo de fuerza (Horse Power - Hp),
 originariamente definida como la potencia promedio desarrollada por un caballo fuerte en un día de trabajo.
 Un caballo de fuerza equivale a aproximadamente 746 watts. Se utiliza fundamentalmente en países de
 influencia anglosajona para medir potencia en motores y otros dispositivos relacionados.
-1
+
 Podemos relacionar también la potencia con el valor de resistencia mediante simples reemplazos
 de fórmulas. Sabemos que la ley de Ohm dice que:
-
+```
 V = I . R
-
+```
 Reemplazando V en la ecuación de potencia obtenemos:
-
-P = (I . R) . I
-
+```
+P = ( I . R ) . I
 P = I² . R
+```
 
 Por otra parte, si en la ecuación de potencia reemplazamos I con la ecuación I = V / R :
-
-P = V . V
-R
-
-P = V²
-R
-
+```
+P = V . ( V / R )
+P = V²/R
+```
 Podemos utilizar cualquiera de estas ecuaciones para obtener el valor de potencia en un circuito.
 
 Encontramos aplicado el concepto de potencia eléctrica en distintos elementos hogareños, por
@@ -81,8 +78,8 @@ cuando hablamos de potencia consumida o “disipada” nos estamos refiriendo a 
 conversión de energía de una forma a otra. Ningún tipo de energía puede desaparecer
 ni ser destruida.
 
+---
 Apunte realizado por Martín Matus y Esteban Calcagno para uso interno de la materia Taller
 de Instrumental y Equipos I de la Carrera de Composición con Medios Electroacústicos de la
 Universidad Nacional de Quilmes.
-2
 
