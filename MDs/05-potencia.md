@@ -3,6 +3,8 @@
 El siguiente es un circuito esquemático que corresponde a una linterna, siendo la lámpara un tipo
 particular de resistencia y las pilas de la linterna una fuente de tensión continua
 
+*falta dibujo*
+
 La función de una linterna es convertir la energía eléctrica entregada por la pila a energía lumínica
 (una parte será convertida en energía calórica, algo que constituye un efecto no deseado en este
 caso). Este ejemplo nos ayuda a entender la potencia eléctrica, un concepto habitualmente mal
