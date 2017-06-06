@@ -18,15 +18,15 @@ La aplicación de la Ley de corrientes de Kirchhoff indica que la suma algebraic
 corrientes debe ser igual a cero. Para esto sumaremos todas las corrientes asignando signo
 positivo a las corrientes que entran y signo negativo a las que salen. Esto nos dará como resultado
 la siguiente ecuación:
-´´´
+```
 IT – IR1 – IR2 – IR3 = 0
-´´´
+```
 Como vemos claramente, esto es lo mismo que expresar que la suma de las corrientes entrantes al
 nodo (en este caso la corriente total IT) es igual a la suma de las corrientes salientes del nodo
 ( IR1 , IR2 e IR3):
-´´´
+```
 IT = IR1 + IR2 + IR3
-´´´
+```
 ## Segunda Ley de Kirchhoff o Ley de tensiones
 Así como la Ley de corrientes presentada anteriormente nos proporciona la relación entre los
 valores de corriente en cualquier nodo de un sistema, esta ley (que también puede encontrarse
@@ -60,13 +60,13 @@ tensión signo positivo, ya que estoy realizando la trayectoria en sentido horar
 aspecto fundamental que ayuda a comprender esta ley de Kirchhoff es que si hubiéramos seguido
 la trayectoria en sentido opuesto (anti-horario) el resultado hubiera sido el mismo.
 Como resultado obtendremos la siguiente ecuación:
-´´´
+```
 –VR1 – VR1 – VR3 – VR4 + V = 0
-´´´
+```
 Observemos que esta ecuación también puede expresarse de la siguiente manera:
-´´´
+```
 V = VR1 + VR1 + VR3 + VR4
-´´´
+```
 Con esta última ecuación podemos observar fácilmente otra forma en la que puede expresarse y
 entenderse la primera ley de Kirchhoff: en cualquier malla la suma de tensiones aplicadas
 es igual a la suma de caídas de tensión de sus elementos componentes.
