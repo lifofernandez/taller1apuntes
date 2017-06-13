@@ -44,7 +44,7 @@ Fase de la Impedancia (angulo)
 
 `tan = Xc / R`
 
-> Angulo Tangente = Cateto Opuesto / Cateto Adyasente
+> Arcotangente = Cateto Opuesto / Cateto Adyasente
 
 Magnitud de la Impedancia
 
