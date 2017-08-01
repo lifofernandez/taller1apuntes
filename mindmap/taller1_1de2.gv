@@ -1,0 +1,199 @@
+graph G {
+ label="TALLER 1: PRIMERA PARTE" 
+style=bold
+node[color=gray];
+
+
+ /*
+  subgraph clusterA {
+    label="corriente"
+    a -- b;
+    subgraph clusterC {
+      C -- D;
+    }
+  }
+  subgraph clusterB {
+    d -- f
+  }
+  d -- D
+*/
+  materia [ label="MATERIA",shape=polygon, sides=5, peripheries=3 ]
+  materia -- atomo
+  atomo [label="ATOMO"]
+  atomo -- {NUCLEO CAPAS}
+  NUCLEO [label="NUCLEO"]; 
+  NUCLEO -- {neutrones protones};
+  neutrones [label="Neutrones (N)"];
+  protones [label="Protones (+)"];
+  electrones [label="Electrones (-)"];
+  protones -- electrones [label="Cargas Distintas\nSe Atraen", style=dashed];
+  CAPAS [label="CAPAS CONCENTRICAS", peripheries=3, style=dashed];
+
+
+  CAPAS -- electrones [label="orbitan el nucleo"];
+
+  CAPAS -- {cantidades distancia};
+  cantidades [ label="Cantidades = (2.N)^"];
+  distancia [ label="capas lejanas/incompletas"];
+  distancia -- atraccion;
+  atraccion [ label="atraccion menor"];
+  atraccion -- movilizacion[label="Permite"];
+  movilizacion [ label="Movilizacion de Electrones\nEntre Atomos"];
+  fuerza [label="Fuerza externa"];
+  movilizacion--fuerza[label="Requiere"];
+  principio -- movilizacion /* [label="Requiere  Fuerza externa"];*/
+  principio [ label="Principio de Generacion de Electricidad", shape=polygon];
+
+  fuerza -- BATERIA ;
+  
+  BATERIA -- produce  [label="mediante\naccion quimica"];
+  BATERIA -- generador;
+  generador[label="generador de electrones que\ndesplazan a los libres\nde los atomos de cobre"];
+  generador -- {movilizacion};
+  produce [label="pruduce y mantiene"]
+  produce -- {flujo}
+  flujo  [label="flujo constante \nde electrones"];
+  flujo -- negativo;
+  negativo [label="(-) acumulacion\nde carga negativa"]
+  negativo -- positivo[label="Sentido Real: - +"];
+  positivo [label="(+) falta de electrones"]
+  positivo -- flujo;
+
+  flujo -- filamento [label="al pasar por\nlampara / filamento"];
+  filamento[label="despide calor/ luz"];
+
+  columbio -- flujo;
+  subgraph clusterCorriente {
+    label="CORRIENTE (I)"
+    columbio [label ="6242 . (10 ^ 18) electrones\n= 1 COULOMB"]
+    amper [label ="1 coulomb / segundos\n= 1 AMPERE"]
+    amper -- columbio;
+    relacion[label="valor de corriente\nrelacionado\nvalor de carga /\n unidad temporal", shape=polygon];
+
+    relacion -- amper[label="mayor corriente",style=dashed];
+    relacion -- columbio [label="mayor carga",style=dashed];
+
+    /*
+    subgraph clusterC {
+      C -- D;
+    }
+  */
+  
+  }
+
+  energia -- generador;
+  subgraph clusterT {
+    label="TENSION (V)"
+    energia [label ="ENERGIA\nCapacidad de realizar Trabajo"]
+    energia -- mover[label="Involucra"];
+    mover [label ="Mover una Carga"];
+    mover -- entre;
+    entre [label ="Entre 2 puntos "];
+    energia -- volt [label=" Se mide en JOULES"];
+    volt [label ="1 VOLT \n1 Joule mover 1 Coulomb"];
+  }
+  
+  mover -- oposicion;
+  subgraph clusterResistencia {
+   label="RESISTENCIA (ÃŽÂ©)"
+   ohm [label ="Resistencia\nOhms "]
+   oposicion -- {"conductores\nno conductores"}
+   oposicion -- depende
+   depende -- {"tipo de material" longitud "area/superficie" temperatura}
+   ohm -- oposicion
+   conductancia -- ohm [label="Inversa a\nla Resistencia"]
+   conductancia -- facilidad
+   facilidad[label="Facilidad\ncon la que se establece\nla corriente" shape=polygon]
+   
+  }
+
+  subgraph clusterLeydeohms {
+   label="1era LEY DE Ohms"
+
+  subgraph clusterFisica {
+   label="Describe Relacion:"
+     efecto -- causa  [label=proporcional]
+     efecto -- oposission  [label=inversa]
+     causa -- oposission
+     oposission [label=oposicion]
+    }
+   subgraph clusterElectronica {
+     label="REVELA"
+     corriente -- tension  [label="mayor voltaje\naumenta corriente"]
+     corriente -- resistencia  [label="mayor resistencia\ndisminuye corriente"]
+     tension -- resistencia [label="SOBRE"]
+    }
+
+    efecto -- corriente [style=dashed];
+    tension -- causa [style=dashed];
+    resistencia -- oposission [style=dashed];
+
+
+  } 
+resistencia -- ohm;
+corriente -- amper;
+tension -- volt;
+
+
+
+ watt -- filamento;
+  subgraph clusterPotensia {
+    label="POTENCIA (P)"
+    potencia  -- watt
+    watt [label ="1 J / S = 1 WATT"]
+   
+    potencia -- tasa -- trabajo
+    tasa -- tasa_explicacion
+    tasa_explicacion [label =" coeficiente que expresa\nrelaciÃƒÂ³n entre:\ncantidad y frecuencia"]
+    trabajo [label ="trabajo realizado"]
+    trabajo -- conversion
+    conversion [label = "conversion de energia\nde una forma a otra"]
+   
+    potencia --  rapidez -- transferencia -- "de energia" -- entre_sistemas
+    entre_sistemas [label="de un sistema otro"]
+    
+  }
+
+  subgraph clusterKirchoff {
+    label="Leyes de Kirchoff";
+     
+       
+  }
+
+ subgraph clusterSerieparalelo {
+    label="Serie y Paralelo // Leyes de Kirchoff ";
+
+      subgraph clusterSerie {
+         label="SERIE"
+         nodebe [label="no debe\nhaber derivaciones", shape=polygon]
+         nodebe -- lazo
+         lazo [label = "lazo cerrado o trayectoria\n(sale y regresa al mismo punto\nsin abandonar el circuito)"]
+         lazo -- "corriente circulanmte" [label="es la misma"]
+         lazo -- caidas [label="varia"]
+         caidas[label = "caidas/elevaciones de tension\nen cada resistor"]
+         
+         subgraph clusterPrimera {
+           label="2da Ley de Kirchoff"
+             sumaz -- caidas [label="IGUAL\n A CERO" ]
+             sumaz [label="SUMAS"]
+          }
+
+      }
+      subgraph clusterParalelo {
+         label="PARALELO"
+         debe [label="debe compartir ambos polos", shape=polygon]
+         debe --  rama
+         rama [label="Cada rama o sistema"]
+         rama -- "tension aplicada"  [label="mantiene"]
+         rama -- entransalen  [label="varian"]
+         entransalen [label="corrientes que entran y salen"]
+
+          subgraph clusterSegunda {
+             label="1era  Ley de Kirchoff" 
+             sumas [label="SUMAS"]
+             sumas -- entransalen[label="IGUAL\nA CERO" ]
+           }
+       }
+  }
+
+}

@@ -1,0 +1,23 @@
+graph Cuadripolos{
+  CUADRIPOLOS --
+  "Dispositivo\nElectrico\nGenerico" --  {"2 PUERTOS = 4 POLOS\nIN:OUT = [+ -] [+ -]" inyectarle diferencia cascada}
+    inyectarle[label= "Al Inyectarle una Señal"]
+    inyectarle --  ENTRADA
+    diferencia [label="Genera una Diferencia"]
+   {ENTRADA -- diferencia -- SALIDA}
+    diferencia -- producto
+    SALIDA -- producto
+    producto[label="Producto de\nuna Transformacion"]
+   {ENTRADA SALIDA} -- Relacion
+    Relacion -- define
+    define [label="Define su Ganancia"]
+    define -- ganancia_total
+    cascada [label="Sistema de Cuadripolos\nVinculados en Cascada"]
+    cascada -- ganancia_total -- {VECES dB}
+    ganancia_total [label="Ganancia Total"]
+
+    VECES -- Multiplica
+    dB -- Suma
+    {Multiplica Suma} -- "Gancias Parciales"
+   
+}

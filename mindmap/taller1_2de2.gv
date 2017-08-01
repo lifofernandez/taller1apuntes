@@ -1,0 +1,88 @@
+graph G {
+
+  label="TALLER 1: 2 PARTE" 
+  style=bold
+  node[color=gray];
+  CA [label="Corriente Alterna"]
+  CA --  FACIL -- {generar transportar usar}
+  CA -- Impedancia[label="(Z) oposicion a la corriente"]
+  Impedancia -- {Resistencia Reactancia}
+  Resistencia -- {pasivo "V e I en fase" "Cumple Ley de Ohm"}
+  "X = XL - XC" --  Reactancia
+  Reactancia --  { Bobinas } [label="Reactancia\nInductiva"] 
+  Reactancia --  { Capasitores } [label="Reactancia\nCapacitiva"]
+  Bobinas  [label="BOBINA\nMaterial conductor\enrollado alrededor\n de nucleo"]
+  Capasitores [label="CAPACITOR\n2 placas conductoras\nmuy poco separadas\npor un dialectrico"]
+ 
+  Bobinas -- {almacena XL magnetico}
+  Capasitores -- { almacena XC electrico}
+  almacena [label="almacena y libera\nenergia"]
+
+  almacena -- {magnetico electrico}
+  magnetico [label="en forma de\ncampo magnetico"]
+  electrico [label="en forma de\ncampo electrico"]
+
+  XL  -- Fq [label="Proporcional"]
+  XC -- Fq [label="Inversa"]
+
+   Fq [label="Frecuencia de V"]
+   Fq -- {Mayor Menor}
+   Mayor -- "+ XL - XC"
+   Menor -- "- XL + XC"
+   Bobinas -- inicial [label="Circuito\nAbierto", style="dashed"] 
+   Bobinas -- lapso [label="Cortocircuito"  style="dashed"] 
+   Capasitores -- inicial [label="Cortocircuito"  style="dashed"] 
+   Capasitores -- lapso [label="Circuito\nAbierto" style="dashed"] 
+    
+    subgraph clusterCc {
+      label="CC" 
+      CC [label="Corriente Continua"]
+      CC -- inicial -- lapso
+      inicial [label="Momento\nInicial"]
+      lapso [label="Lapso\nde Tiempo"]
+     }
+ subgraph clusterFiltros {
+      label="Filtros Pasivos"
+      filtros[label="FILTROS\nDiseñados para\nSeleccionar/Rechazar\nBandas de Fq"]
+      filtros -- alimentacion
+      alimentacion -- Activos[label="requieren"]
+      alimentacion -- Pasivos [label="no requieren"]
+      filtros -- Bandas
+      Bandas -- {Paso Rechazo}
+      Paso -- "Cruzara a la Sig. etapa\ncon POR LO MENOS 70,7% de V"
+      Rechazo -- "Cruzara a la Sig. etapa\ncon MENOS DEL  70,7% de V"
+
+      {"Fq en la que\ncomienza atenuar" " V: 0,707\n(normalizado)"} -- FqC
+      FqC [label="Frecuencia de\nCorte"]
+
+     FqC -- {Paso Rechazo} 
+      {Paso Rechazo} -- configuraciones
+      configuraciones [label="Configuraciones\nFundamentales"]
+      configuraciones -- {Pasa Rechaza}
+      Pasa -- {Bajos Altos Banda}
+      Rechaza -- Banda
+      
+      RC  -- CR [label="Intercambian\nPosiciones" style="dashed"]
+      Bajos -- RC
+      Altos -- CR
+      RC -- "Tomamos la\ncaida de tension\nen el capasitor"
+      CR -- "Tomamos la\ncaida de tension\nen el resistor"
+
+     }
+   
+
+   }
+
+
+    
+  
+  
+
+/*
+  subgraph clusteA {
+    label="A CLUSTER" 
+    nodo [label="NODO"]
+    nodo -- nodo2[label="IGUAL\nA CERO" ]
+   }
+*/
+}
